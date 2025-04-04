@@ -1,0 +1,320 @@
+{
+  "symbol": "KALAMANDIR",
+  "url": "https://www.screener.in/company/KALAMANDIR/consolidated/",
+  "timestamp": 1743778624.27096,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Sales\u00a0+": [
+      1176,
+      679,
+      1136
+    ],
+    "Expenses\u00a0+": [
+      1057,
+      604,
+      994
+    ],
+    "Operating Profit": [
+      119,
+      75,
+      142
+    ],
+    "OPM %": [
+      10,
+      11,
+      12
+    ],
+    "Other Income\u00a0+": [
+      3,
+      3,
+      4
+    ],
+    "Interest": [
+      37,
+      37,
+      37
+    ],
+    "Depreciation": [
+      29,
+      33,
+      34
+    ],
+    "Profit before tax": [
+      56,
+      8,
+      75
+    ],
+    "Tax %": [
+      22,
+      29,
+      27
+    ],
+    "Net Profit\u00a0+": [
+      44,
+      6,
+      54
+    ],
+    "EPS in Rs": [
+      18.71,
+      2.47,
+      22.61
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "TTM"
+    ],
+    "Compounded Sales Growth": [
+      67.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "TTM"
+    ],
+    "Compounded Profit Growth": [
+      67.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "TTM"
+    ],
+    "Stock Price Cagr": [
+      67.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "TTM"
+    ],
+    "Return On Equity": [
+      67.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Equity Capital": [
+      0,
+      0,
+      0
+    ],
+    "Reserves": [
+      0,
+      0,
+      0
+    ],
+    "Borrowings\u00a0+": [
+      0,
+      0,
+      0
+    ],
+    "Other Liabilities\u00a0+": [
+      0,
+      0,
+      0
+    ],
+    "Total Liabilities": [
+      0,
+      0,
+      0
+    ],
+    "Fixed Assets\u00a0+": [
+      0,
+      0,
+      0
+    ],
+    "CWIP": [
+      0,
+      0,
+      0
+    ],
+    "Investments": [
+      0,
+      0,
+      0
+    ],
+    "Other Assets\u00a0+": [
+      0,
+      0,
+      0
+    ],
+    "Total Assets": [
+      0,
+      0,
+      0
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Debtor Days": [
+      0,
+      0,
+      0
+    ],
+    "Inventory Days": [
+      0,
+      0,
+      0
+    ],
+    "Days Payable": [
+      0,
+      0,
+      0
+    ],
+    "Cash Conversion Cycle": [
+      0,
+      0,
+      0
+    ],
+    "Working Capital Days": [
+      0,
+      0,
+      0
+    ],
+    "ROCE %": [
+      0,
+      0,
+      0
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Debtor Days": [
+      0,
+      0,
+      0
+    ],
+    "Inventory Days": [
+      0,
+      0,
+      0
+    ],
+    "Days Payable": [
+      0,
+      0,
+      0
+    ],
+    "Cash Conversion Cycle": [
+      0,
+      0,
+      0
+    ],
+    "Working Capital Days": [
+      0,
+      0,
+      0
+    ],
+    "ROCE %": [
+      0,
+      0,
+      0
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      60.8,
+      60.8,
+      60.8,
+      60.8,
+      60.8,
+      60.8
+    ],
+    "FIIs\u00a0+": [
+      7.11,
+      4.59,
+      3.32,
+      2.86,
+      3.29,
+      3.26
+    ],
+    "DIIs\u00a0+": [
+      18.85,
+      19.83,
+      20.42,
+      19.12,
+      16.16,
+      15.41
+    ],
+    "Public\u00a0+": [
+      9.32,
+      10.86,
+      11.54,
+      13.31,
+      15.82,
+      16.6
+    ],
+    "Others\u00a0+": [
+      3.92,
+      3.92,
+      3.92,
+      3.92,
+      3.92,
+      3.92
+    ],
+    "No. of Shareholders": [
+      59656,
+      44969,
+      49089,
+      50876,
+      55296,
+      59499
+    ]
+  },
+  "market_data": {
+    "Market Cap": 2021,
+    "Current Price": 132,
+    "High / Low": "218 / 125",
+    "Stock P/E": 37.1,
+    "Dividend Yield": 0.76,
+    "Face Value": 2.0
+  },
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

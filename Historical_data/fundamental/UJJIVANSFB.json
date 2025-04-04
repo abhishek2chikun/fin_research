@@ -1,0 +1,184 @@
+{
+  "symbol": "UJJIVANSFB",
+  "url": "https://www.screener.in/company/UJJIVANSFB/consolidated/",
+  "timestamp": 1743780453.440278,
+  "quarterly_results": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Gross NPA %": [],
+    "Net NPA %": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowing": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Cash from Operating Activity\u00a0+": [],
+    "Cash from Investing Activity\u00a0+": [],
+    "Cash from Financing Activity\u00a0+": [],
+    "Net Cash Flow": []
+  },
+  "ratios": {
+    "date": [],
+    "ROE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      83.32,
+      83.32,
+      73.68,
+      73.68,
+      73.67,
+      73.67,
+      73.66,
+      73.6,
+      73.52,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "FIIs\u00a0+": [
+      0.14,
+      0.18,
+      3.25,
+      2.29,
+      1.96,
+      3.9,
+      3.54,
+      3.7,
+      3.48,
+      24.68,
+      20.62,
+      17.87
+    ],
+    "DIIs\u00a0+": [
+      0.66,
+      0.65,
+      9.08,
+      8.21,
+      8.35,
+      7.07,
+      4.21,
+      3.99,
+      2.33,
+      7.33,
+      6.5,
+      6.58
+    ],
+    "Public\u00a0+": [
+      15.88,
+      15.85,
+      13.99,
+      15.83,
+      16.0,
+      15.35,
+      18.59,
+      18.72,
+      20.67,
+      67.99,
+      72.87,
+      75.54
+    ],
+    "No. of Shareholders": [
+      270300,
+      272548,
+      263629,
+      276665,
+      278288,
+      294885,
+      452749,
+      598080,
+      690424,
+      914077,
+      1068325,
+      1138626
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "symbol": "AUBANK",
+  "url": "https://www.screener.in/company/AUBANK/consolidated/",
+  "timestamp": 1743769165.4183612,
+  "quarterly_results": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Gross NPA %": [],
+    "Net NPA %": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2014",
+      "Mar 2015",
+      "Mar 2016",
+      "Mar 2017"
+    ],
+    "Revenue": [
+      667,
+      813,
+      1206,
+      1429
+    ],
+    "Interest": [
+      317,
+      334,
+      492,
+      531
+    ],
+    "Expenses\u00a0+": [
+      201,
+      227,
+      339,
+      422
+    ],
+    "Financing Profit": [
+      148,
+      252,
+      375,
+      476
+    ],
+    "Financing Margin %": [
+      22,
+      31,
+      31,
+      33
+    ],
+    "Other Income\u00a0+": [
+      4,
+      -4,
+      8,
+      612
+    ],
+    "Depreciation": [
+      4,
+      8,
+      10,
+      6
+    ],
+    "Profit before tax": [
+      149,
+      241,
+      373,
+      1082
+    ],
+    "Tax %": [
+      32,
+      33,
+      34,
+      30
+    ],
+    "Net Profit\u00a0+": [
+      101,
+      163,
+      247,
+      762
+    ],
+    "EPS in Rs": [
+      11.65,
+      18.49,
+      27.95,
+      13.4
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "3 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      23.0,
+      19.0,
+      19.0,
+      22.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "3 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      23.0,
+      19.0,
+      19.0,
+      22.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "3 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      23.0,
+      19.0,
+      19.0,
+      22.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "3 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      23.0,
+      19.0,
+      19.0,
+      22.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2014",
+      "Mar 2015",
+      "Mar 2016",
+      "Mar 2017"
+    ],
+    "Equity Capital": [
+      43,
+      44,
+      44,
+      284
+    ],
+    "Reserves": [
+      606,
+      794,
+      1022,
+      1703
+    ],
+    "Deposits": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "Borrowing": [
+      2478,
+      3588,
+      6232,
+      7071
+    ],
+    "Other Liabilities\u00a0+": [
+      249,
+      397,
+      634,
+      753
+    ],
+    "Total Liabilities": [
+      3377,
+      4823,
+      7933,
+      9812
+    ],
+    "Fixed Assets\u00a0+": [
+      23,
+      24,
+      30,
+      36
+    ],
+    "CWIP": [
+      0,
+      0,
+      0,
+      240
+    ],
+    "Investments": [
+      65,
+      65,
+      89,
+      2150
+    ],
+    "Other Assets\u00a0+": [
+      3289,
+      4733,
+      7813,
+      7386
+    ],
+    "Total Assets": [
+      3377,
+      4823,
+      7933,
+      9812
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2014",
+      "Mar 2015",
+      "Mar 2016",
+      "Mar 2017"
+    ],
+    "Cash from Operating Activity\u00a0+": [
+      -665,
+      -1125,
+      -1719,
+      884
+    ],
+    "Cash from Investing Activity\u00a0+": [
+      593,
+      3,
+      39,
+      -1800
+    ],
+    "Cash from Financing Activity\u00a0+": [
+      -148,
+      1153,
+      1958,
+      1022
+    ],
+    "Net Cash Flow": [
+      -220,
+      31,
+      278,
+      106
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2014",
+      "Mar 2015",
+      "Mar 2016",
+      "Mar 2017"
+    ],
+    "ROE %": [
+      0,
+      22,
+      26,
+      22
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      28.23,
+      28.21,
+      25.59,
+      25.55,
+      25.54,
+      25.53,
+      25.48,
+      25.47,
+      25.45,
+      22.92,
+      22.91,
+      22.89
+    ],
+    "FIIs\u00a0+": [
+      34.31,
+      35.07,
+      38.55,
+      39.61,
+      39.74,
+      41.61,
+      41.64,
+      41.13,
+      39.37,
+      39.58,
+      40.71,
+      39.34
+    ],
+    "DIIs\u00a0+": [
+      18.79,
+      18.41,
+      21.28,
+      20.64,
+      20.62,
+      19.25,
+      19.56,
+      20.81,
+      22.77,
+      18.44,
+      20.13,
+      21.78
+    ],
+    "Public\u00a0+": [
+      18.67,
+      18.31,
+      14.58,
+      14.21,
+      14.09,
+      13.63,
+      13.31,
+      12.63,
+      12.4,
+      19.06,
+      16.23,
+      15.99
+    ],
+    "No. of Shareholders": [
+      149884,
+      177400,
+      188507,
+      179082,
+      170109,
+      163552,
+      159037,
+      155660,
+      230172,
+      195762,
+      174101,
+      189495
+    ]
+  },
+  "market_data": {
+    "Market Cap": 41225,
+    "Current Price": 554,
+    "High / Low": "755 / 478",
+    "Stock P/E": 121,
+    "Dividend Yield": 0.18,
+    "ROCE": 12.4,
+    "ROE": 22.3,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [],
+    "cons": [
+      "Company has low interest coverage ratio.",
+      "Earnings include an other income of Rs.612 Cr.",
+      "Promoter holding has decreased over last 3 years: -5.45%"
+    ]
+  }
+}

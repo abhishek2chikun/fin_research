@@ -1,0 +1,152 @@
+# Financial Data Structure and Access Patterns
+
+## Overview
+This document outlines the data structure for financial analysis and the recommended patterns for accessing this data across different agents. It focuses on the relationships between simplified utility tools and agent implementations.
+
+## Overview of Data Flow Architecture
+
+```
+JSON Data Files (in Historical_data/fundamental/*.json)
+        |
+        v
+Utility Functions (in tools/fundamental.py)
+        |
+        v
+Investment Agents (in slave_agent/*.py)
+```
+
+## JSON Data Structure
+The financial data JSON contains hierarchical sections with time-series financial metrics:
+
+1. **Basic Information** - Metadata about the financial instrument
+2. **Quarterly Results** - Short-term performance metrics over quarters
+3. **Profit and Loss** - Annual income statement data
+4. **Balance Sheet** - Asset and liability information
+5. **Cash Flows & Ratios** - Operational efficiency and cash flow metrics
+6. **Market Data** - Current market valuation metrics
+
+## Utility Functions (tools/*)
+
+The `tools` directory contains utility functions that handle data access with a simplified approach:
+
+1. **Check existing tools first**: Before creating a new function, check if a similar one exists
+2. **Create in tools directory**: New utility functions belong in tools/fundamental.py
+3. **Follow function pattern**:
+   - Descriptive name (`get_market_cap`, `get_revenue_growth`, etc.)
+   - Type hints for parameters and return values
+   - Return structured dictionaries with consistent keys
+   - Implement robust error handling and logging
+   - Document clearly with docstrings
+
+## Direct Data Access
+
+The simplified approach directly accesses JSON data without the complexity of Pydantic models:
+
+```python
+# Load the fundamental data for a ticker
+data = fetch_fundamental_data(ticker)
+
+# Access specific sections
+quarterly_results = get_quarterly_results(ticker)
+profit_loss = get_profit_loss(ticker)
+balance_sheet = get_balance_sheet(ticker)
+```
+
+## Banking-Specific Utility Functions
+
+For financial institutions, specialized utility functions are available:
+
+1. **Bank Detection**:
+   - `is_banking_entity(ticker)`: Determines if a company is a banking/financial institution by checking for sector-specific fields like deposits, NPA ratios, etc.
+
+2. **Banking Metrics**:
+   - `get_net_interest_margin(ticker)`: Retrieves Net Interest Margin (NIM) data, a critical banking profitability metric
+   - `get_bank_capital_adequacy(ticker)`: Gets Capital Adequacy Ratio (CAR) data, which measures a bank's stability
+   - `get_cost_to_income_ratio(ticker)`: Analyzes the cost-to-income ratio, a key banking efficiency metric
+
+3. **Banking Valuation**:
+   - `get_price_to_book(ticker)`: Gets Price-to-Book ratio data, especially important for bank valuation
+   - Banks have different valuation expectations than other companies
+
+4. **Banking vs. Non-Banking Analysis**:
+   - Some metrics (like EV/EBITDA) are not applicable to banks
+   - Investment agents can detect banking entities and apply appropriate analysis
+
+## Agent Implementation (slave_agent/*)
+Investment strategy agents should:
+
+1. Focus on strategy logic rather than data access
+2. Use utility functions from tools/ for all data access
+3. Handle edge cases and apply strategy-specific thresholds
+4. Return consistent output structure
+
+## Field Access Patterns
+
+### Direct vs. Utility Access
+DO NOT use direct access patterns like:
+```python
+# Avoid complex direct access
+if "market_data" in data and "Market Cap" in data["market_data"]:
+    try:
+        market_cap = float(data["market_data"]["Market Cap"])
+    except ValueError:
+        market_cap = None
+```
+
+INSTEAD use utility functions:
+```python
+# Prefer utility functions
+market_cap = get_market_cap(ticker)
+```
+
+### Common Field Naming Challenges
+
+1. **Spaces vs. Underscores** - Fields in JSON may have spaces
+2. **Special Characters** - Some fields have non-breaking spaces (`\u00a0+`) or other special characters
+3. **Percentage Representation** - Values might be stored as percentage numbers (e.g., 15.5) or decimals (0.155)
+4. **Nested Access** - Data may require traversing nested structures
+5. **Data Gaps** - Handling missing or null data points in time series
+
+## Data Validation Guidelines
+
+1. Always check if a section exists before accessing it
+2. Validate data types before calculations
+3. Handle arrays of different lengths appropriately
+4. Convert percentage values consistently
+5. Provide reasonable defaults when data is missing
+
+## Specific JSON Field Examples
+
+Here are some common fields with their access patterns as examples:
+
+- **Revenue**: `data["profit_loss"]["Sales\u00a0+"]`  
+- **Operating Margin**: `data["profit_loss"]["OPM %"]`
+- **Return on Equity**: `data["market_data"]["ROE"]` or `data["ratios"]["Return on Equity"]`
+- **Market Cap**: `data["market_data"]["Market Cap"]`
+
+## Special Considerations
+
+1. **Non-Standard Characters**: Some keys have non-breaking spaces like `\u00a0+` which need special handling
+
+2. **Null Data Handling**: Always check for None values before calculations
+
+3. **Type Conversion**: The utility functions handle conversion between percentage and decimal formats as well as string-to-number conversion
+
+4. **Data Access Patterns**: Prefer using the utility functions over direct data access
+
+## OHLCV Data
+
+For price data, the `tools/ohlcv.py` module provides:
+
+1. `fetch_ohlcv_data(ticker, timeframe='1d')`: Fetches historical price data
+2. `get_price_data(ticker, start_date, end_date)`: Gets price data for a specific period
+3. `calculate_technical_indicators(ticker, period=14)`: Calculates various technical indicators
+
+The module uses Pydantic models for OHLCVBar and OHLCVData classes to provide structured access to historical price data.
+
+## Future Improvements
+
+1. Cache frequently accessed data to improve performance
+2. Add more validation and fallback mechanisms
+3. Implement industry averages and comparison functions
+4. Add time-series analysis utilities for trend detection 

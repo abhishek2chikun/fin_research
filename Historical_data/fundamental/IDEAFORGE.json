@@ -1,0 +1,590 @@
+{
+  "symbol": "IDEAFORGE",
+  "url": "https://www.screener.in/company/IDEAFORGE/consolidated/",
+  "timestamp": 1743774379.820873,
+  "quarterly_results": {
+    "date": [
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Sales\u00a0+": [
+      99,
+      40,
+      8,
+      39,
+      97,
+      24,
+      91,
+      102,
+      86,
+      37,
+      18
+    ],
+    "Expenses\u00a0+": [
+      44,
+      33,
+      24,
+      37,
+      69,
+      32,
+      71,
+      87,
+      84,
+      53,
+      35
+    ],
+    "Operating Profit": [
+      55,
+      7,
+      -16,
+      1,
+      28,
+      -8,
+      20,
+      15,
+      2,
+      -16,
+      -17
+    ],
+    "OPM %": [
+      55,
+      17,
+      -207,
+      3,
+      29,
+      -33,
+      22,
+      15,
+      3,
+      -43,
+      -99
+    ],
+    "Other Income\u00a0+": [
+      1,
+      3,
+      2,
+      4,
+      4,
+      15,
+      7,
+      5,
+      6,
+      6,
+      5
+    ],
+    "Interest": [
+      0,
+      1,
+      1,
+      3,
+      2,
+      1,
+      0,
+      0,
+      0,
+      1,
+      0
+    ],
+    "Depreciation": [
+      3,
+      3,
+      3,
+      3,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      7
+    ],
+    "Profit before tax": [
+      53,
+      6,
+      -18,
+      0,
+      25,
+      1,
+      20,
+      14,
+      2,
+      -18,
+      -20
+    ],
+    "Tax %": [
+      22,
+      38,
+      -57,
+      1029,
+      25,
+      33,
+      27,
+      27,
+      25,
+      -24,
+      18
+    ],
+    "Net Profit\u00a0+": [
+      41,
+      4,
+      -8,
+      -5,
+      19,
+      1,
+      15,
+      10,
+      1,
+      -14,
+      -24
+    ],
+    "EPS in Rs": [
+      4552.98,
+      438.19,
+      -3.73,
+      -2.54,
+      4.95,
+      0.21,
+      3.45,
+      2.41,
+      0.27,
+      -3.19,
+      -5.58
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "TTM"
+    ],
+    "Sales\u00a0+": [
+      14,
+      35,
+      159,
+      186,
+      314,
+      243
+    ],
+    "Expenses\u00a0+": [
+      26,
+      45,
+      85,
+      138,
+      257,
+      259
+    ],
+    "Operating Profit": [
+      -12,
+      -11,
+      75,
+      48,
+      57,
+      -16
+    ],
+    "OPM %": [
+      -88,
+      -31,
+      47,
+      26,
+      18,
+      -7
+    ],
+    "Other Income\u00a0+": [
+      2,
+      2,
+      2,
+      10,
+      30,
+      22
+    ],
+    "Interest": [
+      1,
+      2,
+      19,
+      6,
+      5,
+      2
+    ],
+    "Depreciation": [
+      3,
+      4,
+      7,
+      12,
+      21,
+      27
+    ],
+    "Profit before tax": [
+      -13,
+      -14,
+      50,
+      41,
+      61,
+      -23
+    ],
+    "Tax %": [
+      0,
+      1,
+      12,
+      22,
+      26,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      -13,
+      -15,
+      44,
+      32,
+      45,
+      -26
+    ],
+    "EPS in Rs": [
+      -1499.44,
+      -1625.56,
+      4862.98,
+      14.99,
+      10.56,
+      -6.09
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "3 Years",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      14.0,
+      9.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "3 Years",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      14.0,
+      9.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "3 Years",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      14.0,
+      9.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "3 Years",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      14.0,
+      9.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      0.09,
+      0.09,
+      0.09,
+      21,
+      43,
+      43
+    ],
+    "Reserves": [
+      68,
+      60,
+      163,
+      303,
+      618,
+      610
+    ],
+    "Borrowings\u00a0+": [
+      7,
+      51,
+      16,
+      101,
+      14,
+      16
+    ],
+    "Other Liabilities\u00a0+": [
+      5,
+      13,
+      43,
+      63,
+      67,
+      36
+    ],
+    "Total Liabilities": [
+      80,
+      124,
+      222,
+      488,
+      743,
+      705
+    ],
+    "Fixed Assets\u00a0+": [
+      5,
+      13,
+      26,
+      49,
+      67,
+      158
+    ],
+    "CWIP": [
+      17,
+      14,
+      19,
+      25,
+      54,
+      1
+    ],
+    "Investments": [
+      12,
+      0,
+      11,
+      125,
+      88,
+      112
+    ],
+    "Other Assets\u00a0+": [
+      46,
+      97,
+      166,
+      289,
+      533,
+      434
+    ],
+    "Total Assets": [
+      80,
+      124,
+      222,
+      488,
+      743,
+      705
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      264,
+      250,
+      46,
+      113,
+      52
+    ],
+    "Inventory Days": [
+      532,
+      451,
+      433,
+      639,
+      222
+    ],
+    "Days Payable": [
+      40,
+      91,
+      66,
+      85,
+      36
+    ],
+    "Cash Conversion Cycle": [
+      756,
+      609,
+      413,
+      667,
+      237
+    ],
+    "Working Capital Days": [
+      882,
+      591,
+      132,
+      379,
+      208
+    ],
+    "ROCE %": [
+      0,
+      -14,
+      48,
+      15,
+      11
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      264,
+      250,
+      46,
+      113,
+      52
+    ],
+    "Inventory Days": [
+      532,
+      451,
+      433,
+      639,
+      222
+    ],
+    "Days Payable": [
+      40,
+      91,
+      66,
+      85,
+      36
+    ],
+    "Cash Conversion Cycle": [
+      756,
+      609,
+      413,
+      667,
+      237
+    ],
+    "Working Capital Days": [
+      882,
+      591,
+      132,
+      379,
+      208
+    ],
+    "ROCE %": [
+      0,
+      -14,
+      48,
+      15,
+      11
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      30.19,
+      29.34,
+      29.33,
+      29.33,
+      29.23,
+      29.23
+    ],
+    "FIIs\u00a0+": [
+      2.76,
+      3.46,
+      2.75,
+      2.92,
+      3.5,
+      1.36
+    ],
+    "DIIs\u00a0+": [
+      10.15,
+      6.39,
+      3.76,
+      3.4,
+      2.34,
+      2.48
+    ],
+    "Public\u00a0+": [
+      56.9,
+      60.8,
+      64.15,
+      64.32,
+      64.92,
+      66.93
+    ],
+    "No. of Shareholders": [
+      87735,
+      104732,
+      144920,
+      174253,
+      179920,
+      178211
+    ]
+  },
+  "market_data": {
+    "Market Cap": 1508,
+    "Current Price": 350,
+    "High / Low": "864 / 322",
+    "Book Value": 152,
+    "Dividend Yield": 0.0,
+    "ROCE": 11.5,
+    "ROE": 8.84,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [
+      "Company has reduced debt.",
+      "Company is almost debt free.",
+      "Company is expected to give good quarter",
+      "Debtor days have improved from 70.5 to 51.6 days."
+    ],
+    "cons": [
+      "Though the company is reporting repeated profits, it is not paying out dividend",
+      "Company has low interest coverage ratio.",
+      "Promoter holding is low: 29.2%",
+      "Company has a low return on equity of 13.9% over last 3 years.",
+      "Earnings include an other income of Rs.22.1 Cr.",
+      "Company's cost of borrowing seems high"
+    ]
+  }
+}

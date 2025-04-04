@@ -1,0 +1,437 @@
+{
+  "symbol": "CYIENTDLM",
+  "url": "https://www.screener.in/company/CYIENTDLM/consolidated/",
+  "timestamp": 1743771681.98133,
+  "quarterly_results": {
+    "date": [
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Sales\u00a0+": [
+      277,
+      217,
+      292,
+      321,
+      362,
+      258,
+      389,
+      444
+    ],
+    "Expenses\u00a0+": [
+      245,
+      197,
+      268,
+      292,
+      324,
+      238,
+      358,
+      416
+    ],
+    "Operating Profit": [
+      32,
+      20,
+      24,
+      29,
+      38,
+      20,
+      32,
+      28
+    ],
+    "OPM %": [
+      12,
+      9,
+      8,
+      9,
+      11,
+      8,
+      8,
+      6
+    ],
+    "Other Income\u00a0+": [
+      -1,
+      1,
+      9,
+      9,
+      8,
+      9,
+      7,
+      7
+    ],
+    "Interest": [
+      9,
+      9,
+      8,
+      8,
+      9,
+      8,
+      11,
+      10
+    ],
+    "Depreciation": [
+      5,
+      5,
+      5,
+      6,
+      6,
+      7,
+      7,
+      10
+    ],
+    "Profit before tax": [
+      17,
+      7,
+      20,
+      25,
+      31,
+      14,
+      21,
+      15
+    ],
+    "Tax %": [
+      27,
+      23,
+      26,
+      25,
+      26,
+      25,
+      26,
+      27
+    ],
+    "Net Profit\u00a0+": [
+      13,
+      5,
+      15,
+      18,
+      23,
+      11,
+      15,
+      11
+    ],
+    "EPS in Rs": [
+      2.38,
+      0.94,
+      1.85,
+      2.33,
+      2.87,
+      1.34,
+      1.95,
+      1.39
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024",
+      "TTM"
+    ],
+    "Sales\u00a0+": [
+      832,
+      1192,
+      1453
+    ],
+    "Expenses\u00a0+": [
+      744,
+      1081,
+      1336
+    ],
+    "Operating Profit": [
+      88,
+      111,
+      118
+    ],
+    "OPM %": [
+      11,
+      9,
+      8
+    ],
+    "Other Income\u00a0+": [
+      6,
+      28,
+      31
+    ],
+    "Interest": [
+      32,
+      34,
+      38
+    ],
+    "Depreciation": [
+      19,
+      22,
+      30
+    ],
+    "Profit before tax": [
+      43,
+      82,
+      81
+    ],
+    "Tax %": [
+      26,
+      25,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      32,
+      61,
+      60
+    ],
+    "EPS in Rs": [
+      6.0,
+      7.72,
+      7.55
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      31.0,
+      11.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      31.0,
+      11.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      31.0,
+      11.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      31.0,
+      11.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      53,
+      79,
+      79
+    ],
+    "Reserves": [
+      145,
+      830,
+      858
+    ],
+    "Borrowings\u00a0+": [
+      356,
+      192,
+      343
+    ],
+    "Other Liabilities\u00a0+": [
+      551,
+      502,
+      411
+    ],
+    "Total Liabilities": [
+      1105,
+      1603,
+      1692
+    ],
+    "Fixed Assets\u00a0+": [
+      161,
+      192,
+      198
+    ],
+    "CWIP": [
+      1,
+      1,
+      6
+    ],
+    "Investments": [
+      90,
+      66,
+      66
+    ],
+    "Other Assets\u00a0+": [
+      853,
+      1344,
+      1422
+    ],
+    "Total Assets": [
+      1105,
+      1603,
+      1692
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      71,
+      69
+    ],
+    "Inventory Days": [
+      240,
+      184
+    ],
+    "Days Payable": [
+      161,
+      127
+    ],
+    "Cash Conversion Cycle": [
+      150,
+      126
+    ],
+    "Working Capital Days": [
+      65,
+      97
+    ],
+    "ROCE %": [
+      0,
+      14
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      71,
+      69
+    ],
+    "Inventory Days": [
+      240,
+      184
+    ],
+    "Days Payable": [
+      161,
+      127
+    ],
+    "Cash Conversion Cycle": [
+      150,
+      126
+    ],
+    "Working Capital Days": [
+      65,
+      97
+    ],
+    "ROCE %": [
+      0,
+      14
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      66.66,
+      66.66,
+      66.66,
+      66.66,
+      66.66,
+      52.16,
+      52.16
+    ],
+    "FIIs\u00a0+": [
+      7.17,
+      6.23,
+      6.32,
+      7.04,
+      5.14,
+      7.76,
+      3.64
+    ],
+    "DIIs\u00a0+": [
+      12.18,
+      12.28,
+      11.22,
+      12.56,
+      17.44,
+      27.77,
+      29.41
+    ],
+    "Public\u00a0+": [
+      13.99,
+      14.82,
+      15.8,
+      13.73,
+      10.75,
+      12.31,
+      14.78
+    ],
+    "No. of Shareholders": [
+      44791,
+      47883,
+      59711,
+      57978,
+      77906,
+      93934,
+      105489
+    ]
+  },
+  "market_data": {
+    "Market Cap": 3463,
+    "Current Price": 438,
+    "High / Low": "873 / 380",
+    "Stock P/E": 57.9,
+    "Book Value": 118,
+    "Dividend Yield": 0.0,
+    "ROCE": 14.1,
+    "ROE": 11.1,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [
+      "Company is expected to give good quarter"
+    ],
+    "cons": [
+      "Stock is trading at 3.70 times its book value",
+      "Though the company is reporting repeated profits, it is not paying out dividend"
+    ]
+  }
+}

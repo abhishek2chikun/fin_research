@@ -1,0 +1,571 @@
+{
+  "symbol": "CAMPUS",
+  "url": "https://www.screener.in/company/CAMPUS/consolidated/",
+  "timestamp": 1743771061.621894,
+  "quarterly_results": {
+    "date": [
+      "Mar 2021",
+      "Jun 2021",
+      "Dec 2021",
+      "Mar 2022",
+      "Jun 2022"
+    ],
+    "Sales\u00a0+": [
+      275,
+      135,
+      434,
+      352,
+      338
+    ],
+    "Expenses\u00a0+": [
+      210,
+      120,
+      341,
+      274,
+      276
+    ],
+    "Operating Profit": [
+      65,
+      15,
+      93,
+      78,
+      62
+    ],
+    "OPM %": [
+      24,
+      11,
+      21,
+      22,
+      18
+    ],
+    "Other Income\u00a0+": [
+      0,
+      1,
+      0,
+      0,
+      1
+    ],
+    "Interest": [
+      4,
+      4,
+      5,
+      6,
+      6
+    ],
+    "Depreciation": [
+      11,
+      11,
+      14,
+      15,
+      15
+    ],
+    "Profit before tax": [
+      50,
+      1,
+      75,
+      57,
+      42
+    ],
+    "Tax %": [
+      80,
+      -151,
+      27,
+      31,
+      32
+    ],
+    "Net Profit\u00a0+": [
+      10,
+      2,
+      55,
+      40,
+      29
+    ],
+    "EPS in Rs": [
+      0.66,
+      0.13,
+      1.8,
+      1.3,
+      0.94
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Sales\u00a0+": [
+      2,
+      508,
+      595,
+      732,
+      711,
+      1194
+    ],
+    "Expenses\u00a0+": [
+      3,
+      431,
+      495,
+      596,
+      595,
+      952
+    ],
+    "Operating Profit": [
+      -1,
+      77,
+      100,
+      136,
+      116,
+      242
+    ],
+    "OPM %": [
+      -57,
+      15,
+      17,
+      19,
+      16,
+      20
+    ],
+    "Other Income\u00a0+": [
+      0,
+      0,
+      2,
+      2,
+      4,
+      1
+    ],
+    "Interest": [
+      0,
+      21,
+      21,
+      17,
+      17,
+      20
+    ],
+    "Depreciation": [
+      0,
+      36,
+      14,
+      23,
+      33,
+      53
+    ],
+    "Profit before tax": [
+      -1,
+      20,
+      66,
+      99,
+      70,
+      171
+    ],
+    "Tax %": [
+      3,
+      63,
+      42,
+      37,
+      62,
+      37
+    ],
+    "Net Profit\u00a0+": [
+      -1,
+      7,
+      39,
+      62,
+      27,
+      108
+    ],
+    "EPS in Rs": [
+      -145.0,
+      741.01,
+      3947.58,
+      4.06,
+      1.77,
+      3.57
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      18.0,
+      22.0,
+      1.0,
+      68.0,
+      29.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      18.0,
+      22.0,
+      1.0,
+      68.0,
+      29.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      18.0,
+      22.0,
+      1.0,
+      68.0,
+      29.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      18.0,
+      22.0,
+      1.0,
+      68.0,
+      29.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Equity Capital": [
+      0.08,
+      0.1,
+      0.1,
+      152,
+      152,
+      152
+    ],
+    "Reserves": [
+      -1,
+      298,
+      202,
+      133,
+      161,
+      275
+    ],
+    "Borrowings\u00a0+": [
+      347,
+      174,
+      199,
+      276,
+      177,
+      289
+    ],
+    "Other Liabilities\u00a0+": [
+      170,
+      134,
+      106,
+      162,
+      199,
+      247
+    ],
+    "Total Liabilities": [
+      516,
+      606,
+      506,
+      722,
+      689,
+      964
+    ],
+    "Fixed Assets\u00a0+": [
+      288,
+      282,
+      100,
+      169,
+      256,
+      322
+    ],
+    "CWIP": [
+      0,
+      13,
+      25,
+      35,
+      0,
+      2
+    ],
+    "Investments": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Other Assets\u00a0+": [
+      228,
+      310,
+      381,
+      518,
+      433,
+      639
+    ],
+    "Total Assets": [
+      516,
+      606,
+      506,
+      722,
+      689,
+      964
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Debtor Days": [
+      27766,
+      137,
+      99,
+      72,
+      50,
+      41
+    ],
+    "Inventory Days": [
+      18058,
+      113,
+      135,
+      166,
+      202,
+      219
+    ],
+    "Days Payable": [
+      31435,
+      118,
+      92,
+      118,
+      167,
+      120
+    ],
+    "Cash Conversion Cycle": [
+      14390,
+      131,
+      143,
+      120,
+      86,
+      139
+    ],
+    "Working Capital Days": [
+      12436,
+      129,
+      127,
+      111,
+      101,
+      113
+    ],
+    "ROCE %": [
+      0,
+      10,
+      20,
+      24,
+      17,
+      32
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022"
+    ],
+    "Debtor Days": [
+      27766,
+      137,
+      99,
+      72,
+      50,
+      41
+    ],
+    "Inventory Days": [
+      18058,
+      113,
+      135,
+      166,
+      202,
+      219
+    ],
+    "Days Payable": [
+      31435,
+      118,
+      92,
+      118,
+      167,
+      120
+    ],
+    "Cash Conversion Cycle": [
+      14390,
+      131,
+      143,
+      120,
+      86,
+      139
+    ],
+    "Working Capital Days": [
+      12436,
+      129,
+      127,
+      111,
+      101,
+      113
+    ],
+    "ROCE %": [
+      0,
+      10,
+      20,
+      24,
+      17,
+      32
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      74.1,
+      74.03,
+      74.03,
+      74.02,
+      73.94,
+      73.89,
+      73.88,
+      73.88,
+      73.87,
+      73.87,
+      73.84
+    ],
+    "FIIs\u00a0+": [
+      5.27,
+      6.18,
+      6.0,
+      12.26,
+      11.49,
+      9.25,
+      5.94,
+      5.22,
+      5.94,
+      5.67,
+      5.35
+    ],
+    "DIIs\u00a0+": [
+      6.6,
+      6.55,
+      6.37,
+      6.72,
+      6.63,
+      4.82,
+      7.07,
+      7.79,
+      9.44,
+      11.81,
+      11.4
+    ],
+    "Public\u00a0+": [
+      14.03,
+      13.23,
+      13.61,
+      7.01,
+      7.93,
+      12.06,
+      13.12,
+      13.1,
+      10.76,
+      8.66,
+      9.4
+    ],
+    "No. of Shareholders": [
+      174803,
+      133691,
+      148290,
+      157833,
+      191736,
+      265590,
+      265079,
+      284564,
+      253286,
+      211263,
+      211896
+    ]
+  },
+  "market_data": {
+    "Market Cap": 7311,
+    "Current Price": 240,
+    "High / Low": "372 / 225",
+    "Stock P/E": 67.4,
+    "Dividend Yield": 0.29,
+    "ROCE": 31.8,
+    "ROE": 29.3,
+    "Face Value": 5.0
+  },
+  "remarks": {
+    "pros": [
+      "Company has delivered good profit growth of 149% CAGR over last 5 years",
+      "Debtor days have improved from 54.4 to 40.9 days."
+    ],
+    "cons": []
+  }
+}

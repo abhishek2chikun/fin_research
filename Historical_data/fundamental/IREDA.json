@@ -1,0 +1,364 @@
+{
+  "symbol": "IREDA",
+  "url": "https://www.screener.in/company/IREDA/consolidated/",
+  "timestamp": 1743774642.3572302,
+  "quarterly_results": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Gross NPA %": [],
+    "Net NPA %": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021"
+    ],
+    "Revenue": [
+      1331,
+      1810,
+      2020,
+      2369,
+      2614
+    ],
+    "Interest": [
+      810,
+      1006,
+      1183,
+      1459,
+      1570
+    ],
+    "Expenses\u00a0+": [
+      194,
+      240,
+      431,
+      649,
+      496
+    ],
+    "Financing Profit": [
+      327,
+      564,
+      406,
+      260,
+      548
+    ],
+    "Financing Margin %": [
+      25,
+      31,
+      20,
+      11,
+      21
+    ],
+    "Other Income\u00a0+": [
+      -7,
+      7,
+      -72,
+      3,
+      44
+    ],
+    "Depreciation": [
+      7,
+      21,
+      23,
+      23,
+      23
+    ],
+    "Profit before tax": [
+      313,
+      549,
+      311,
+      241,
+      570
+    ],
+    "Tax %": [
+      33,
+      26,
+      20,
+      11,
+      39
+    ],
+    "Net Profit\u00a0+": [
+      210,
+      405,
+      250,
+      215,
+      346
+    ],
+    "EPS in Rs": [
+      267.74,
+      5.17,
+      3.18,
+      2.74,
+      4.41
+    ],
+    "Dividend Payout %": [
+      60,
+      31,
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      11.0,
+      10.0,
+      13.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      11.0,
+      10.0,
+      13.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      11.0,
+      10.0,
+      13.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      11.0,
+      10.0,
+      13.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021"
+    ],
+    "Equity Capital": [
+      785,
+      785,
+      785,
+      785,
+      785
+    ],
+    "Reserves": [
+      1643,
+      1661,
+      1800,
+      1737,
+      2211
+    ],
+    "Deposits": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Borrowing": [
+      6053,
+      6118,
+      8887,
+      11310,
+      10894
+    ],
+    "Other Liabilities\u00a0+": [
+      3592,
+      2937,
+      3181,
+      3277,
+      3298
+    ],
+    "Total Liabilities": [
+      18797,
+      20368,
+      24518,
+      27652,
+      30293
+    ],
+    "Fixed Assets\u00a0+": [
+      318,
+      314,
+      303,
+      282,
+      266
+    ],
+    "CWIP": [
+      0,
+      3,
+      0,
+      0,
+      0
+    ],
+    "Investments": [
+      0,
+      1,
+      0,
+      1,
+      1
+    ],
+    "Other Assets\u00a0+": [
+      18479,
+      20050,
+      24215,
+      27370,
+      30027
+    ],
+    "Total Assets": [
+      18797,
+      20368,
+      24518,
+      27652,
+      30293
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021"
+    ],
+    "Cash from Operating Activity\u00a0+": [
+      -1282,
+      -1846,
+      -5018,
+      -1709,
+      -3206
+    ],
+    "Cash from Investing Activity\u00a0+": [
+      -282,
+      -53,
+      -37,
+      0,
+      -2
+    ],
+    "Cash from Financing Activity\u00a0+": [
+      2644,
+      1701,
+      3736,
+      2141,
+      2441
+    ],
+    "Net Cash Flow": [
+      1081,
+      -198,
+      -1319,
+      431,
+      -767
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2017",
+      "Mar 2018",
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021"
+    ],
+    "ROE %": [
+      0,
+      17,
+      12,
+      8,
+      13
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0
+    ],
+    "FIIs\u00a0+": [
+      1.88,
+      1.36,
+      2.7,
+      2.02,
+      1.85
+    ],
+    "DIIs\u00a0+": [
+      4.37,
+      0.94,
+      0.42,
+      0.35,
+      0.63
+    ],
+    "Public\u00a0+": [
+      18.75,
+      22.7,
+      21.87,
+      22.62,
+      22.51
+    ],
+    "No. of Shareholders": [
+      1367953,
+      2147272,
+      2243293,
+      2616555,
+      2619358
+    ]
+  },
+  "market_data": {
+    "Market Cap": 42014,
+    "Current Price": 156,
+    "High / Low": "310 / 137",
+    "Stock P/E": 121,
+    "Dividend Yield": 0.0,
+    "ROCE": 8.33,
+    "ROE": 12.6,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [],
+    "cons": [
+      "Company has low interest coverage ratio.",
+      "Company has a low return on equity of 10.9% over last 3 years.",
+      "Company might be capitalizing the interest cost"
+    ]
+  }
+}

@@ -1,0 +1,203 @@
+{
+  "symbol": "ORIENTELEC",
+  "url": "https://www.screener.in/company/ORIENTELEC/consolidated/",
+  "timestamp": 1743777362.237211,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      38.52,
+      38.52,
+      38.42,
+      38.42,
+      38.41,
+      38.3,
+      38.3,
+      38.3,
+      38.3,
+      38.3,
+      38.3,
+      38.3
+    ],
+    "FIIs\u00a0+": [
+      8.26,
+      6.16,
+      6.12,
+      6.13,
+      5.75,
+      5.5,
+      5.69,
+      5.94,
+      6.52,
+      6.56,
+      6.99,
+      7.09
+    ],
+    "DIIs\u00a0+": [
+      26.3,
+      29.08,
+      27.02,
+      26.66,
+      27.6,
+      27.87,
+      29.98,
+      29.23,
+      27.19,
+      27.73,
+      27.89,
+      27.86
+    ],
+    "Government\u00a0+": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.05,
+      0.05,
+      0.07
+    ],
+    "Public\u00a0+": [
+      26.92,
+      26.24,
+      28.43,
+      28.79,
+      28.23,
+      28.32,
+      26.04,
+      26.54,
+      27.97,
+      27.36,
+      26.76,
+      26.67
+    ],
+    "No. of Shareholders": [
+      80208,
+      77762,
+      88895,
+      83287,
+      80016,
+      83455,
+      87598,
+      94675,
+      102708,
+      91121,
+      88899,
+      86068
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,189 @@
+{
+  "symbol": "JCHAC",
+  "url": "https://www.screener.in/company/JCHAC/consolidated/",
+  "timestamp": 1743775334.4117,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25,
+      74.25
+    ],
+    "FIIs\u00a0+": [
+      0.99,
+      1.01,
+      1.04,
+      1.03,
+      0.76,
+      0.63,
+      0.49,
+      0.48,
+      0.5,
+      1.24,
+      0.86,
+      1.0
+    ],
+    "DIIs\u00a0+": [
+      12.61,
+      12.47,
+      11.71,
+      11.57,
+      11.14,
+      10.04,
+      9.06,
+      8.9,
+      8.43,
+      7.96,
+      7.95,
+      7.37
+    ],
+    "Public\u00a0+": [
+      12.15,
+      12.26,
+      13.01,
+      13.15,
+      13.84,
+      15.08,
+      16.19,
+      16.36,
+      16.81,
+      16.53,
+      16.93,
+      17.38
+    ],
+    "No. of Shareholders": [
+      36444,
+      35151,
+      35230,
+      35641,
+      35678,
+      34264,
+      37543,
+      36755,
+      37384,
+      34053,
+      32465,
+      32293
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,481 @@
+{
+  "symbol": "VSTIND",
+  "url": "https://www.screener.in/company/VSTIND/consolidated/",
+  "timestamp": 1743780602.224909,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2006",
+      "Mar 2007",
+      "Mar 2008",
+      "Mar 2009",
+      "Mar 2010"
+    ],
+    "Sales\u00a0+": [
+      349,
+      333,
+      339,
+      380,
+      471
+    ],
+    "Expenses\u00a0+": [
+      251,
+      253,
+      263,
+      338,
+      402
+    ],
+    "Operating Profit": [
+      98,
+      80,
+      76,
+      42,
+      69
+    ],
+    "OPM %": [
+      28,
+      24,
+      22,
+      11,
+      15
+    ],
+    "Other Income\u00a0+": [
+      -3,
+      17,
+      24,
+      60,
+      34
+    ],
+    "Interest": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Depreciation": [
+      10,
+      12,
+      14,
+      16,
+      18
+    ],
+    "Profit before tax": [
+      85,
+      86,
+      86,
+      86,
+      86
+    ],
+    "Tax %": [
+      48,
+      35,
+      32,
+      28,
+      27
+    ],
+    "Net Profit\u00a0+": [
+      44,
+      56,
+      58,
+      62,
+      62
+    ],
+    "EPS in Rs": [
+      2.61,
+      3.27,
+      3.44,
+      3.64,
+      3.65
+    ],
+    "Dividend Payout %": [
+      43,
+      56,
+      53,
+      75,
+      75
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "3 Years",
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      22.0,
+      7.0,
+      2.0,
+      24.0,
+      25.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "3 Years",
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      22.0,
+      7.0,
+      2.0,
+      24.0,
+      25.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "3 Years",
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      22.0,
+      7.0,
+      2.0,
+      24.0,
+      25.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "3 Years",
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      22.0,
+      7.0,
+      2.0,
+      24.0,
+      25.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2006",
+      "Mar 2007",
+      "Mar 2008",
+      "Mar 2009",
+      "Mar 2010"
+    ],
+    "Equity Capital": [
+      15,
+      15,
+      15,
+      15,
+      15
+    ],
+    "Reserves": [
+      179,
+      198,
+      219,
+      227,
+      235
+    ],
+    "Borrowings\u00a0+": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Other Liabilities\u00a0+": [
+      147,
+      191,
+      224,
+      259,
+      310
+    ],
+    "Total Liabilities": [
+      341,
+      404,
+      459,
+      502,
+      560
+    ],
+    "Fixed Assets\u00a0+": [
+      90,
+      96,
+      120,
+      127,
+      134
+    ],
+    "CWIP": [
+      1,
+      2,
+      3,
+      5,
+      7
+    ],
+    "Investments": [
+      161,
+      184,
+      223,
+      194,
+      191
+    ],
+    "Other Assets\u00a0+": [
+      89,
+      121,
+      113,
+      175,
+      228
+    ],
+    "Total Assets": [
+      341,
+      404,
+      459,
+      502,
+      560
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2006",
+      "Mar 2007",
+      "Mar 2008",
+      "Mar 2009",
+      "Mar 2010"
+    ],
+    "Debtor Days": [
+      4,
+      6,
+      5,
+      5,
+      11
+    ],
+    "Inventory Days": [
+      145,
+      186,
+      203,
+      271,
+      250
+    ],
+    "Days Payable": [
+      323,
+      420,
+      408,
+      326,
+      225
+    ],
+    "Cash Conversion Cycle": [
+      -173,
+      -227,
+      -200,
+      -51,
+      36
+    ],
+    "Working Capital Days": [
+      -80,
+      -126,
+      -135,
+      -102,
+      -78
+    ],
+    "ROCE %": [
+      0,
+      42,
+      35,
+      26,
+      34
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2006",
+      "Mar 2007",
+      "Mar 2008",
+      "Mar 2009",
+      "Mar 2010"
+    ],
+    "Debtor Days": [
+      4,
+      6,
+      5,
+      5,
+      11
+    ],
+    "Inventory Days": [
+      145,
+      186,
+      203,
+      271,
+      250
+    ],
+    "Days Payable": [
+      323,
+      420,
+      408,
+      326,
+      225
+    ],
+    "Cash Conversion Cycle": [
+      -173,
+      -227,
+      -200,
+      -51,
+      36
+    ],
+    "Working Capital Days": [
+      -80,
+      -126,
+      -135,
+      -102,
+      -78
+    ],
+    "ROCE %": [
+      0,
+      42,
+      35,
+      26,
+      34
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16,
+      32.16
+    ],
+    "FIIs\u00a0+": [
+      1.75,
+      1.84,
+      1.69,
+      1.86,
+      1.64,
+      1.55,
+      1.4,
+      1.39,
+      1.37,
+      1.83,
+      1.82,
+      1.98
+    ],
+    "DIIs\u00a0+": [
+      16.59,
+      16.62,
+      16.64,
+      16.62,
+      16.87,
+      17.24,
+      17.54,
+      17.52,
+      15.69,
+      12.64,
+      9.07,
+      8.96
+    ],
+    "Public\u00a0+": [
+      49.29,
+      49.01,
+      49.14,
+      49.0,
+      48.96,
+      48.69,
+      48.53,
+      48.57,
+      50.42,
+      53.0,
+      56.77,
+      56.71
+    ],
+    "Others\u00a0+": [
+      0.2,
+      0.37,
+      0.37,
+      0.37,
+      0.37,
+      0.37,
+      0.37,
+      0.37,
+      0.37,
+      0.37,
+      0.19,
+      0.19
+    ],
+    "No. of Shareholders": [
+      33441,
+      33289,
+      32988,
+      32588,
+      32002,
+      31258,
+      30431,
+      31073,
+      32868,
+      34355,
+      105832,
+      122857
+    ]
+  },
+  "market_data": {
+    "Market Cap": 4546,
+    "Current Price": 268,
+    "High / Low": "487 / 242",
+    "Stock P/E": 74.0,
+    "Book Value": 14.7,
+    "Dividend Yield": 5.1,
+    "ROCE": 34.4,
+    "ROE": 24.9,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [
+      "Company is almost debt free.",
+      "Stock is providing a good dividend yield of 5.10%.",
+      "Company has been maintaining a healthy dividend payout of 67.4%"
+    ],
+    "cons": [
+      "Stock is trading at 18.2 times its book value",
+      "Promoter holding is low: 32.2%",
+      "Earnings include an other income of Rs.34.2 Cr."
+    ]
+  }
+}

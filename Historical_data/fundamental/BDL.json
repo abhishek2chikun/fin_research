@@ -1,0 +1,203 @@
+{
+  "symbol": "BDL",
+  "url": "https://www.screener.in/company/BDL/consolidated/",
+  "timestamp": 1743770605.193085,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93,
+      74.93
+    ],
+    "FIIs\u00a0+": [
+      2.11,
+      2.4,
+      2.88,
+      3.24,
+      2.83,
+      3.36,
+      3.09,
+      3.09,
+      2.95,
+      3.06,
+      2.94,
+      3.09
+    ],
+    "DIIs\u00a0+": [
+      16.38,
+      14.59,
+      13.0,
+      12.39,
+      14.1,
+      13.78,
+      12.81,
+      13.32,
+      12.39,
+      9.52,
+      8.46,
+      8.7
+    ],
+    "Government\u00a0+": [
+      0.0,
+      0.0,
+      0.0,
+      0.01,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "Public\u00a0+": [
+      6.59,
+      8.08,
+      9.18,
+      9.43,
+      8.15,
+      7.92,
+      9.17,
+      8.64,
+      9.72,
+      12.49,
+      13.67,
+      13.26
+    ],
+    "No. of Shareholders": [
+      112648,
+      155036,
+      169869,
+      177596,
+      166501,
+      167183,
+      196566,
+      205887,
+      248158,
+      498630,
+      590374,
+      594284
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,301 @@
+{
+  "symbol": "GVT&D",
+  "url": "https://www.screener.in/company/GVT&D/consolidated/",
+  "timestamp": 1743772801.863497,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [
+      "Dec 2010"
+    ],
+    "Sales\u00a0+": [
+      4020
+    ],
+    "Expenses\u00a0+": [
+      3547
+    ],
+    "Operating Profit": [
+      473
+    ],
+    "OPM %": [
+      12
+    ],
+    "Other Income\u00a0+": [
+      17
+    ],
+    "Interest": [
+      115
+    ],
+    "Depreciation": [
+      94
+    ],
+    "Profit before tax": [
+      282
+    ],
+    "Tax %": [
+      34
+    ],
+    "Net Profit\u00a0+": [
+      187
+    ],
+    "EPS in Rs": [
+      7.81
+    ],
+    "Dividend Payout %": [
+      23
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Compounded Sales Growth": [
+      9.0,
+      84.0,
+      137.0,
+      45.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Compounded Profit Growth": [
+      9.0,
+      84.0,
+      137.0,
+      45.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Stock Price Cagr": [
+      9.0,
+      84.0,
+      137.0,
+      45.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Return On Equity": [
+      9.0,
+      84.0,
+      137.0,
+      45.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Dec 2010"
+    ],
+    "Equity Capital": [
+      48
+    ],
+    "Reserves": [
+      955
+    ],
+    "Borrowings\u00a0+": [
+      896
+    ],
+    "Other Liabilities\u00a0+": [
+      2570
+    ],
+    "Total Liabilities": [
+      4468
+    ],
+    "Fixed Assets\u00a0+": [
+      872
+    ],
+    "CWIP": [
+      22
+    ],
+    "Investments": [
+      0
+    ],
+    "Other Assets\u00a0+": [
+      3574
+    ],
+    "Total Assets": [
+      4468
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Dec 2010"
+    ],
+    "Debtor Days": [
+      194
+    ],
+    "Inventory Days": [
+      64
+    ],
+    "Days Payable": [
+      120
+    ],
+    "Cash Conversion Cycle": [
+      138
+    ],
+    "Working Capital Days": [
+      81
+    ],
+    "ROCE %": [
+      0
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Dec 2010"
+    ],
+    "Debtor Days": [
+      194
+    ],
+    "Inventory Days": [
+      64
+    ],
+    "Days Payable": [
+      120
+    ],
+    "Cash Conversion Cycle": [
+      138
+    ],
+    "Working Capital Days": [
+      81
+    ],
+    "ROCE %": [
+      0
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      75.0,
+      59.38,
+      51.0
+    ],
+    "FIIs\u00a0+": [
+      0.25,
+      0.25,
+      0.27,
+      0.26,
+      0.26,
+      0.37,
+      0.59,
+      0.69,
+      1.2,
+      2.04,
+      6.82,
+      12.04
+    ],
+    "DIIs\u00a0+": [
+      15.47,
+      15.72,
+      15.7,
+      15.73,
+      15.72,
+      16.52,
+      16.18,
+      16.11,
+      15.84,
+      14.96,
+      25.61,
+      28.4
+    ],
+    "Public\u00a0+": [
+      9.28,
+      9.03,
+      9.04,
+      9.01,
+      9.02,
+      8.11,
+      8.23,
+      8.2,
+      7.96,
+      8.0,
+      8.19,
+      8.55
+    ],
+    "No. of Shareholders": [
+      41862,
+      40825,
+      39063,
+      39123,
+      38865,
+      38226,
+      39717,
+      37443,
+      44121,
+      59130,
+      74413,
+      87000
+    ]
+  },
+  "market_data": {
+    "Market Cap": 35655,
+    "Current Price": 1402,
+    "High / Low": "2243 / 860",
+    "Stock P/E": 191,
+    "Book Value": 41.9,
+    "Dividend Yield": 0.14,
+    "Face Value": 2.0
+  },
+  "remarks": {
+    "pros": [],
+    "cons": [
+      "Stock is trading at 33.4 times its book value",
+      "Promoter holding has decreased over last quarter: -8.38%",
+      "Company has high debtors of 194 days."
+    ]
+  }
+}

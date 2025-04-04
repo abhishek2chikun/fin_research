@@ -1,0 +1,583 @@
+{
+  "symbol": "SOUTHBANK",
+  "url": "https://www.screener.in/company/SOUTHBANK/consolidated/",
+  "timestamp": 1743779160.612691,
+  "quarterly_results": {
+    "date": [
+      "Dec 2021",
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Revenue": [
+      1671,
+      1635,
+      1622,
+      1740,
+      1898,
+      1973,
+      2025,
+      2129,
+      2184,
+      2275,
+      2314,
+      2355,
+      2371
+    ],
+    "Interest": [
+      1098,
+      1038,
+      1018,
+      1014,
+      1073,
+      1116,
+      1217,
+      1298,
+      1365,
+      1400,
+      1449,
+      1472,
+      1501
+    ],
+    "Expenses\u00a0+": [
+      861,
+      591,
+      672,
+      735,
+      629,
+      680,
+      877,
+      777,
+      836,
+      828,
+      893,
+      891,
+      853
+    ],
+    "Financing Profit": [
+      -288,
+      6,
+      -69,
+      -8,
+      197,
+      178,
+      -69,
+      54,
+      -17,
+      47,
+      -27,
+      -9,
+      16
+    ],
+    "Financing Margin %": [
+      -17,
+      0,
+      -4,
+      0,
+      10,
+      9,
+      -3,
+      3,
+      -1,
+      2,
+      -1,
+      0,
+      1
+    ],
+    "Other Income\u00a0+": [
+      222,
+      204,
+      246,
+      255,
+      -34,
+      345,
+      361,
+      355,
+      452,
+      346,
+      422,
+      449,
+      447
+    ],
+    "Depreciation": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Profit before tax": [
+      -67,
+      210,
+      178,
+      247,
+      162,
+      522,
+      292,
+      409,
+      435,
+      393,
+      394,
+      440,
+      463
+    ],
+    "Tax %": [
+      -24,
+      -29,
+      35,
+      10,
+      36,
+      36,
+      31,
+      33,
+      30,
+      27,
+      26,
+      26,
+      26
+    ],
+    "Net Profit\u00a0+": [
+      -50,
+      272,
+      115,
+      223,
+      103,
+      334,
+      203,
+      275,
+      305,
+      287,
+      294,
+      325,
+      342
+    ],
+    "EPS in Rs": [
+      -0.19,
+      1.04,
+      0.44,
+      0.85,
+      0.39,
+      1.28,
+      0.77,
+      1.05,
+      1.17,
+      1.1,
+      1.12,
+      1.24,
+      1.31
+    ],
+    "Gross NPA %": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Net NPA %": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "TTM"
+    ],
+    "Revenue": [
+      6587,
+      7233,
+      8613,
+      9315
+    ],
+    "Interest": [
+      4347,
+      4221,
+      5281,
+      5823
+    ],
+    "Expenses\u00a0+": [
+      3282,
+      2627,
+      3227,
+      3466
+    ],
+    "Financing Profit": [
+      -1042,
+      385,
+      105,
+      26
+    ],
+    "Financing Margin %": [
+      -16,
+      5,
+      1,
+      0
+    ],
+    "Other Income\u00a0+": [
+      1034,
+      811,
+      1515,
+      1664
+    ],
+    "Depreciation": [
+      84,
+      87,
+      90,
+      0
+    ],
+    "Profit before tax": [
+      -92,
+      1108,
+      1529,
+      1690
+    ],
+    "Tax %": [
+      -149,
+      30,
+      30,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      45,
+      775,
+      1070,
+      1248
+    ],
+    "EPS in Rs": [
+      0.17,
+      2.96,
+      4.09,
+      4.77
+    ],
+    "Dividend Payout %": [
+      0,
+      8,
+      7,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      1.0,
+      35.0,
+      48.0,
+      12.0,
+      14.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      1.0,
+      35.0,
+      48.0,
+      12.0,
+      14.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      1.0,
+      35.0,
+      48.0,
+      12.0,
+      14.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      1.0,
+      35.0,
+      48.0,
+      12.0,
+      14.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      209,
+      209,
+      262,
+      262
+    ],
+    "Reserves": [
+      5645,
+      6465,
+      8565,
+      9133
+    ],
+    "Deposits": [
+      89142,
+      91650,
+      101919,
+      105451
+    ],
+    "Borrowing": [
+      3294,
+      6994,
+      3912,
+      2609
+    ],
+    "Other Liabilities\u00a0+": [
+      1761,
+      2379,
+      2755,
+      2908
+    ],
+    "Total Liabilities": [
+      100052,
+      107697,
+      117412,
+      120364
+    ],
+    "Fixed Assets\u00a0+": [
+      752,
+      754,
+      821,
+      989
+    ],
+    "CWIP": [
+      59,
+      124,
+      145,
+      0
+    ],
+    "Investments": [
+      21445,
+      24641,
+      23977,
+      21788
+    ],
+    "Other Assets\u00a0+": [
+      77796,
+      82178,
+      92469,
+      97586
+    ],
+    "Total Assets": [
+      100052,
+      107697,
+      117412,
+      120364
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Cash from Operating Activity\u00a0+": [
+      5165,
+      -7261,
+      7075
+    ],
+    "Cash from Investing Activity\u00a0+": [
+      -1741,
+      -386,
+      -1986
+    ],
+    "Cash from Financing Activity\u00a0+": [
+      -989,
+      3524,
+      -2148
+    ],
+    "Net Cash Flow": [
+      2436,
+      -4123,
+      2942
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "ROE %": [
+      0,
+      12,
+      14
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "FIIs\u00a0+": [
+      7.36,
+      7.45,
+      7.82,
+      14.88,
+      14.58,
+      13.59,
+      15.0,
+      14.68,
+      15.17,
+      13.44,
+      11.47,
+      11.46
+    ],
+    "DIIs\u00a0+": [
+      16.53,
+      16.12,
+      11.64,
+      6.87,
+      7.64,
+      7.84,
+      6.59,
+      7.61,
+      4.61,
+      5.06,
+      5.25,
+      7.25
+    ],
+    "Public\u00a0+": [
+      76.11,
+      76.43,
+      80.54,
+      78.22,
+      77.77,
+      78.57,
+      78.4,
+      77.7,
+      80.2,
+      81.49,
+      83.26,
+      81.29
+    ],
+    "No. of Shareholders": [
+      664199,
+      661707,
+      697657,
+      695022,
+      709877,
+      715015,
+      809664,
+      888397,
+      1104003,
+      1208113,
+      1247471,
+      1258792
+    ]
+  },
+  "market_data": {
+    "Market Cap": 6198,
+    "Current Price": 23.7,
+    "High / Low": "31.8 / 22.3",
+    "Stock P/E": 4.97,
+    "Book Value": 37.2,
+    "Dividend Yield": 1.27,
+    "ROCE": 6.19,
+    "ROE": 13.8,
+    "Face Value": 1.0
+  },
+  "remarks": {
+    "pros": [
+      "Stock is trading at 0.64 times its book value",
+      "Company's working capital requirements have reduced from 157 days to 69.7 days"
+    ],
+    "cons": [
+      "Company has low interest coverage ratio.",
+      "Contingent liabilities of Rs.33,599 Cr.",
+      "Company might be capitalizing the interest cost"
+    ]
+  }
+}

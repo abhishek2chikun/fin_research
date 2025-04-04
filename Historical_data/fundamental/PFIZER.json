@@ -1,0 +1,382 @@
+{
+  "symbol": "PFIZER",
+  "url": "https://www.screener.in/company/PFIZER/consolidated/",
+  "timestamp": 1743777673.513537,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [
+      "Nov 2006",
+      "Nov 2007",
+      "Nov 2008"
+    ],
+    "Sales\u00a0+": [
+      664,
+      676,
+      678
+    ],
+    "Expenses\u00a0+": [
+      537,
+      815,
+      760
+    ],
+    "Operating Profit": [
+      127,
+      -139,
+      -82
+    ],
+    "OPM %": [
+      19,
+      -21,
+      -12
+    ],
+    "Other Income\u00a0+": [
+      48,
+      600,
+      512
+    ],
+    "Interest": [
+      0,
+      0,
+      0
+    ],
+    "Depreciation": [
+      13,
+      10,
+      11
+    ],
+    "Profit before tax": [
+      163,
+      451,
+      419
+    ],
+    "Tax %": [
+      35,
+      25,
+      29
+    ],
+    "Net Profit\u00a0+": [
+      106,
+      340,
+      300
+    ],
+    "EPS in Rs": [
+      35.64,
+      113.94,
+      100.39
+    ],
+    "Dividend Payout %": [
+      63,
+      24,
+      12
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      5.0,
+      0.0,
+      0.0,
+      20.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      5.0,
+      0.0,
+      0.0,
+      20.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      5.0,
+      0.0,
+      0.0,
+      20.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      5.0,
+      0.0,
+      0.0,
+      20.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Nov 2006",
+      "Nov 2007",
+      "Nov 2008"
+    ],
+    "Equity Capital": [
+      30,
+      30,
+      30
+    ],
+    "Reserves": [
+      376,
+      620,
+      871
+    ],
+    "Borrowings\u00a0+": [
+      0,
+      0,
+      0
+    ],
+    "Other Liabilities\u00a0+": [
+      240,
+      218,
+      197
+    ],
+    "Total Liabilities": [
+      646,
+      867,
+      1098
+    ],
+    "Fixed Assets\u00a0+": [
+      65,
+      60,
+      51
+    ],
+    "CWIP": [
+      2,
+      10,
+      32
+    ],
+    "Investments": [
+      0,
+      0,
+      0
+    ],
+    "Other Assets\u00a0+": [
+      579,
+      797,
+      1014
+    ],
+    "Total Assets": [
+      646,
+      867,
+      1098
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Nov 2006",
+      "Nov 2007",
+      "Nov 2008"
+    ],
+    "Debtor Days": [
+      38,
+      33,
+      32
+    ],
+    "Inventory Days": [
+      160,
+      149,
+      190
+    ],
+    "Days Payable": [
+      208,
+      144,
+      164
+    ],
+    "Cash Conversion Cycle": [
+      -10,
+      39,
+      58
+    ],
+    "Working Capital Days": [
+      2,
+      45,
+      135
+    ],
+    "ROCE %": [
+      0,
+      37,
+      27
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Nov 2006",
+      "Nov 2007",
+      "Nov 2008"
+    ],
+    "Debtor Days": [
+      38,
+      33,
+      32
+    ],
+    "Inventory Days": [
+      160,
+      149,
+      190
+    ],
+    "Days Payable": [
+      208,
+      144,
+      164
+    ],
+    "Cash Conversion Cycle": [
+      -10,
+      39,
+      58
+    ],
+    "Working Capital Days": [
+      2,
+      45,
+      135
+    ],
+    "ROCE %": [
+      0,
+      37,
+      27
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92,
+      63.92
+    ],
+    "FIIs\u00a0+": [
+      2.2,
+      2.55,
+      2.55,
+      2.77,
+      2.8,
+      2.81,
+      2.82,
+      3.03,
+      3.32,
+      3.22,
+      3.54,
+      2.74
+    ],
+    "DIIs\u00a0+": [
+      15.06,
+      14.83,
+      14.88,
+      14.93,
+      14.89,
+      14.89,
+      15.0,
+      15.15,
+      15.32,
+      15.83,
+      16.03,
+      16.8
+    ],
+    "Public\u00a0+": [
+      18.82,
+      18.7,
+      18.65,
+      18.39,
+      18.38,
+      18.37,
+      18.24,
+      17.87,
+      17.42,
+      17.0,
+      16.5,
+      16.54
+    ],
+    "No. of Shareholders": [
+      125287,
+      123449,
+      122028,
+      117950,
+      117194,
+      115988,
+      116948,
+      112456,
+      109214,
+      106098,
+      98824,
+      105015
+    ]
+  },
+  "market_data": {
+    "Market Cap": 18427,
+    "Current Price": 4017,
+    "High / Low": "6453 / 3865",
+    "Stock P/E": 120,
+    "Book Value": 302,
+    "Dividend Yield": 0.87,
+    "ROCE": 27.2,
+    "ROE": 19.8,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [
+      "Company is almost debt free.",
+      "Company has been maintaining a healthy dividend payout of 33.2%"
+    ],
+    "cons": [
+      "Stock is trading at 13.3 times its book value",
+      "Earnings include an other income of Rs.512 Cr.",
+      "Working capital days have increased from 60.8 days to 135 days"
+    ]
+  }
+}

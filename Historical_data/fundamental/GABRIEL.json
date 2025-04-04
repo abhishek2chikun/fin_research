@@ -1,0 +1,429 @@
+{
+  "symbol": "GABRIEL",
+  "url": "https://www.screener.in/company/GABRIEL/consolidated/",
+  "timestamp": 1743772870.157059,
+  "quarterly_results": {
+    "date": [
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Sales\u00a0+": [
+      806,
+      864,
+      815,
+      917,
+      947,
+      1027,
+      1017
+    ],
+    "Expenses\u00a0+": [
+      737,
+      791,
+      745,
+      836,
+      856,
+      928,
+      925
+    ],
+    "Operating Profit": [
+      69,
+      74,
+      70,
+      80,
+      91,
+      99,
+      91
+    ],
+    "OPM %": [
+      9,
+      9,
+      9,
+      9,
+      10,
+      10,
+      9
+    ],
+    "Other Income\u00a0+": [
+      5,
+      5,
+      4,
+      6,
+      6,
+      5,
+      9
+    ],
+    "Interest": [
+      2,
+      2,
+      2,
+      2,
+      2,
+      2,
+      3
+    ],
+    "Depreciation": [
+      14,
+      14,
+      14,
+      18,
+      19,
+      19,
+      19
+    ],
+    "Profit before tax": [
+      57,
+      62,
+      58,
+      66,
+      76,
+      82,
+      79
+    ],
+    "Tax %": [
+      27,
+      25,
+      29,
+      26,
+      24,
+      23,
+      23
+    ],
+    "Net Profit\u00a0+": [
+      42,
+      46,
+      41,
+      49,
+      58,
+      63,
+      60
+    ],
+    "EPS in Rs": [
+      2.93,
+      3.23,
+      2.87,
+      3.41,
+      4.01,
+      4.38,
+      4.18
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2024",
+      "TTM"
+    ],
+    "Sales\u00a0+": [
+      3403,
+      3907
+    ],
+    "Expenses\u00a0+": [
+      3110,
+      3546
+    ],
+    "Operating Profit": [
+      293,
+      361
+    ],
+    "OPM %": [
+      9,
+      9
+    ],
+    "Other Income\u00a0+": [
+      19,
+      26
+    ],
+    "Interest": [
+      8,
+      10
+    ],
+    "Depreciation": [
+      60,
+      75
+    ],
+    "Profit before tax": [
+      244,
+      303
+    ],
+    "Tax %": [
+      27,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      179,
+      230
+    ],
+    "EPS in Rs": [
+      12.44,
+      15.98
+    ],
+    "Dividend Payout %": [
+      32,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Compounded Sales Growth": [
+      20.0,
+      61.0,
+      66.0,
+      52.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Compounded Profit Growth": [
+      20.0,
+      61.0,
+      66.0,
+      52.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Stock Price Cagr": [
+      20.0,
+      61.0,
+      66.0,
+      52.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "3 Years",
+      "1 Years"
+    ],
+    "Return On Equity": [
+      20.0,
+      61.0,
+      66.0,
+      52.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      14,
+      14
+    ],
+    "Reserves": [
+      988,
+      1072
+    ],
+    "Borrowings\u00a0+": [
+      75,
+      81
+    ],
+    "Other Liabilities\u00a0+": [
+      702,
+      746
+    ],
+    "Total Liabilities": [
+      1779,
+      1913
+    ],
+    "Fixed Assets\u00a0+": [
+      543,
+      581
+    ],
+    "CWIP": [
+      56,
+      58
+    ],
+    "Investments": [
+      103,
+      63
+    ],
+    "Other Assets\u00a0+": [
+      1078,
+      1211
+    ],
+    "Total Assets": [
+      1779,
+      1913
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      53
+    ],
+    "Inventory Days": [
+      43
+    ],
+    "Days Payable": [
+      84
+    ],
+    "Cash Conversion Cycle": [
+      12
+    ],
+    "Working Capital Days": [
+      31
+    ],
+    "ROCE %": [
+      0
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      53
+    ],
+    "Inventory Days": [
+      43
+    ],
+    "Days Payable": [
+      84
+    ],
+    "Cash Conversion Cycle": [
+      12
+    ],
+    "Working Capital Days": [
+      31
+    ],
+    "ROCE %": [
+      0
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0,
+      55.0
+    ],
+    "FIIs\u00a0+": [
+      1.28,
+      1.38,
+      2.57,
+      2.55,
+      2.91,
+      2.69,
+      3.04,
+      4.08,
+      4.43,
+      4.92,
+      5.5,
+      5.33
+    ],
+    "DIIs\u00a0+": [
+      9.22,
+      9.26,
+      11.04,
+      11.24,
+      11.08,
+      10.96,
+      11.72,
+      12.16,
+      12.0,
+      12.12,
+      12.88,
+      13.46
+    ],
+    "Public\u00a0+": [
+      34.5,
+      34.36,
+      31.38,
+      31.2,
+      31.0,
+      31.35,
+      30.25,
+      28.74,
+      28.56,
+      27.97,
+      26.6,
+      26.2
+    ],
+    "No. of Shareholders": [
+      110201,
+      106304,
+      96013,
+      102772,
+      99809,
+      97742,
+      109187,
+      124421,
+      134139,
+      141668,
+      142821,
+      140849
+    ]
+  },
+  "market_data": {
+    "Market Cap": 7976,
+    "Current Price": 555,
+    "High / Low": "610 / 326",
+    "Stock P/E": 34.7,
+    "Book Value": 75.6,
+    "Dividend Yield": 0.72,
+    "Face Value": 1.0
+  },
+  "remarks": {
+    "pros": [
+      "Company is almost debt free."
+    ],
+    "cons": [
+      "Stock is trading at 7.34 times its book value"
+    ]
+  }
+}

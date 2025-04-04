@@ -1,0 +1,184 @@
+{
+  "symbol": "SBICARD",
+  "url": "https://www.screener.in/company/SBICARD/consolidated/",
+  "timestamp": 1743778520.196383,
+  "quarterly_results": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Gross NPA %": [],
+    "Net NPA %": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowing": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Cash from Operating Activity\u00a0+": [],
+    "Cash from Investing Activity\u00a0+": [],
+    "Cash from Financing Activity\u00a0+": [],
+    "Net Cash Flow": []
+  },
+  "ratios": {
+    "date": [],
+    "ROE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      69.59,
+      69.64,
+      69.41,
+      69.05,
+      69.02,
+      68.96,
+      68.94,
+      68.75,
+      68.63,
+      68.62,
+      68.61,
+      68.6
+    ],
+    "FIIs\u00a0+": [
+      9.53,
+      8.29,
+      8.82,
+      9.13,
+      8.45,
+      9.48,
+      9.08,
+      9.35,
+      8.59,
+      8.72,
+      9.18,
+      9.52
+    ],
+    "DIIs\u00a0+": [
+      12.41,
+      16.24,
+      16.99,
+      16.72,
+      17.47,
+      17.17,
+      17.28,
+      16.27,
+      16.68,
+      16.54,
+      16.76,
+      16.47
+    ],
+    "Public\u00a0+": [
+      8.47,
+      5.83,
+      4.78,
+      5.11,
+      5.06,
+      4.37,
+      4.69,
+      5.62,
+      6.09,
+      6.11,
+      5.46,
+      5.41
+    ],
+    "No. of Shareholders": [
+      1161090,
+      1178353,
+      1063054,
+      1057260,
+      1041168,
+      967531,
+      961296,
+      1028673,
+      1036632,
+      1019117,
+      948916,
+      937270
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

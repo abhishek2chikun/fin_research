@@ -1,0 +1,203 @@
+{
+  "symbol": "VOLTAMP",
+  "url": "https://www.screener.in/company/VOLTAMP/consolidated/",
+  "timestamp": 1743780861.876061,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      50.0,
+      38.0,
+      38.0,
+      38.0,
+      38.0,
+      38.0,
+      38.0
+    ],
+    "FIIs\u00a0+": [
+      15.83,
+      16.25,
+      17.14,
+      13.99,
+      13.66,
+      14.09,
+      22.34,
+      23.23,
+      24.84,
+      27.28,
+      28.5,
+      26.7
+    ],
+    "DIIs\u00a0+": [
+      21.81,
+      21.63,
+      21.86,
+      25.57,
+      25.85,
+      25.68,
+      28.45,
+      28.69,
+      26.88,
+      24.3,
+      22.6,
+      23.7
+    ],
+    "Government\u00a0+": [
+      0.02,
+      0.02,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.02,
+      0.07,
+      0.07,
+      0.07,
+      0.07,
+      0.07
+    ],
+    "Public\u00a0+": [
+      12.34,
+      12.1,
+      11.0,
+      10.43,
+      10.48,
+      10.22,
+      11.18,
+      10.0,
+      10.19,
+      10.35,
+      10.82,
+      11.51
+    ],
+    "No. of Shareholders": [
+      16990,
+      24315,
+      26207,
+      25128,
+      24544,
+      25558,
+      28901,
+      30223,
+      26754,
+      32028,
+      37198,
+      45154
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "symbol": "NSLNISP",
+  "url": "https://www.screener.in/company/NSLNISP/consolidated/",
+  "timestamp": 1743776923.3856452,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      60.79,
+      60.79,
+      60.79,
+      60.79,
+      60.79,
+      60.79,
+      60.79,
+      60.79
+    ],
+    "FIIs\u00a0+": [
+      4.26,
+      3.29,
+      3.94,
+      4.33,
+      4.64,
+      4.52,
+      4.56,
+      4.58
+    ],
+    "DIIs\u00a0+": [
+      19.99,
+      20.46,
+      20.17,
+      19.1,
+      16.95,
+      16.21,
+      16.06,
+      16.02
+    ],
+    "Public\u00a0+": [
+      14.95,
+      15.46,
+      15.08,
+      15.76,
+      17.6,
+      18.47,
+      18.59,
+      18.6
+    ],
+    "No. of Shareholders": [
+      672431,
+      636596,
+      619682,
+      623535,
+      734975,
+      806965,
+      786835,
+      797191
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

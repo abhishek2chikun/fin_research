@@ -1,0 +1,189 @@
+{
+  "symbol": "TIMKEN",
+  "url": "https://www.screener.in/company/TIMKEN/consolidated/",
+  "timestamp": 1743780205.837895,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      67.8,
+      67.8,
+      67.8,
+      67.8,
+      67.8,
+      57.7,
+      57.7,
+      57.7,
+      57.7,
+      51.05,
+      51.05,
+      51.05
+    ],
+    "FIIs\u00a0+": [
+      2.9,
+      3.64,
+      3.9,
+      4.3,
+      3.95,
+      6.56,
+      6.71,
+      7.13,
+      7.2,
+      12.53,
+      13.14,
+      12.97
+    ],
+    "DIIs\u00a0+": [
+      13.01,
+      12.63,
+      12.13,
+      12.14,
+      12.44,
+      19.11,
+      19.68,
+      22.57,
+      23.62,
+      25.57,
+      24.8,
+      24.93
+    ],
+    "Public\u00a0+": [
+      16.29,
+      15.93,
+      16.16,
+      15.75,
+      15.79,
+      16.64,
+      15.91,
+      12.59,
+      11.45,
+      10.84,
+      11.02,
+      11.04
+    ],
+    "No. of Shareholders": [
+      55480,
+      59564,
+      67509,
+      68785,
+      66652,
+      74339,
+      73429,
+      70040,
+      62838,
+      66162,
+      69093,
+      71438
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

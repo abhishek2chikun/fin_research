@@ -1,0 +1,483 @@
+{
+  "symbol": "TTML",
+  "url": "https://www.screener.in/company/TTML/consolidated/",
+  "timestamp": 1743779971.495522,
+  "quarterly_results": {
+    "date": [
+      "Jun 2008",
+      "Sep 2008",
+      "Dec 2008",
+      "Mar 2009",
+      "Jun 2009",
+      "Sep 2009",
+      "Dec 2009",
+      "Mar 2010"
+    ],
+    "Sales\u00a0+": [
+      502,
+      513,
+      516,
+      514,
+      512,
+      543,
+      602,
+      621
+    ],
+    "Expenses\u00a0+": [
+      350,
+      357,
+      367,
+      384,
+      356,
+      428,
+      468,
+      461
+    ],
+    "Operating Profit": [
+      152,
+      157,
+      150,
+      130,
+      156,
+      114,
+      133,
+      161
+    ],
+    "OPM %": [
+      30,
+      30,
+      29,
+      25,
+      31,
+      21,
+      22,
+      26
+    ],
+    "Other Income\u00a0+": [
+      3,
+      5,
+      2,
+      3,
+      1,
+      7,
+      1,
+      22
+    ],
+    "Interest": [
+      75,
+      93,
+      84,
+      54,
+      73,
+      103,
+      93,
+      81
+    ],
+    "Depreciation": [
+      114,
+      115,
+      116,
+      118,
+      119,
+      134,
+      145,
+      166
+    ],
+    "Profit before tax": [
+      -35,
+      -47,
+      -48,
+      -39,
+      -34,
+      -117,
+      -103,
+      -64
+    ],
+    "Tax %": [
+      1,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      -35,
+      -47,
+      -49,
+      -39,
+      -34,
+      -116,
+      -103,
+      -64
+    ],
+    "EPS in Rs": [
+      -0.16,
+      -0.22,
+      -0.23,
+      -0.18,
+      -0.16,
+      -0.54,
+      -0.48,
+      -0.3
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2009",
+      "Mar 2010",
+      "Mar 2011"
+    ],
+    "Sales\u00a0+": [
+      1950,
+      2098,
+      2266
+    ],
+    "Expenses\u00a0+": [
+      1458,
+      1748,
+      2903
+    ],
+    "Operating Profit": [
+      492,
+      350,
+      -637
+    ],
+    "OPM %": [
+      25,
+      17,
+      -28
+    ],
+    "Other Income\u00a0+": [
+      108,
+      247,
+      1834
+    ],
+    "Interest": [
+      306,
+      351,
+      359
+    ],
+    "Depreciation": [
+      463,
+      564,
+      758
+    ],
+    "Profit before tax": [
+      -169,
+      -318,
+      80
+    ],
+    "Tax %": [
+      1,
+      0,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      -170,
+      -318,
+      80
+    ],
+    "EPS in Rs": [
+      -0.79,
+      -1.48,
+      0.37
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM"
+    ],
+    "Compounded Sales Growth": [
+      22.0,
+      99.0,
+      8.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM"
+    ],
+    "Compounded Profit Growth": [
+      22.0,
+      99.0,
+      8.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM"
+    ],
+    "Stock Price Cagr": [
+      22.0,
+      99.0,
+      8.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years",
+      "5 Years",
+      "TTM"
+    ],
+    "Return On Equity": [
+      22.0,
+      99.0,
+      8.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2009",
+      "Mar 2010",
+      "Mar 2011"
+    ],
+    "Equity Capital": [
+      1897,
+      1897,
+      1897
+    ],
+    "Reserves": [
+      -2276,
+      -2594,
+      -2514
+    ],
+    "Borrowings\u00a0+": [
+      3344,
+      3940,
+      4653
+    ],
+    "Other Liabilities\u00a0+": [
+      1061,
+      1566,
+      1811
+    ],
+    "Total Liabilities": [
+      4026,
+      4809,
+      5847
+    ],
+    "Fixed Assets\u00a0+": [
+      3196,
+      3951,
+      4803
+    ],
+    "CWIP": [
+      230,
+      205,
+      153
+    ],
+    "Investments": [
+      10,
+      0,
+      0
+    ],
+    "Other Assets\u00a0+": [
+      591,
+      653,
+      891
+    ],
+    "Total Assets": [
+      4026,
+      4809,
+      5847
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2009",
+      "Mar 2010",
+      "Mar 2011"
+    ],
+    "Debtor Days": [
+      47,
+      51,
+      48
+    ],
+    "Inventory Days": [
+      0,
+      0,
+      0
+    ],
+    "Days Payable": [
+      0,
+      0,
+      0
+    ],
+    "Cash Conversion Cycle": [
+      47,
+      51,
+      48
+    ],
+    "Working Capital Days": [
+      -93,
+      -163,
+      -160
+    ],
+    "ROCE %": [
+      0,
+      0,
+      -13
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2009",
+      "Mar 2010",
+      "Mar 2011"
+    ],
+    "Debtor Days": [
+      47,
+      51,
+      48
+    ],
+    "Inventory Days": [
+      0,
+      0,
+      0
+    ],
+    "Days Payable": [
+      0,
+      0,
+      0
+    ],
+    "Cash Conversion Cycle": [
+      47,
+      51,
+      48
+    ],
+    "Working Capital Days": [
+      -93,
+      -163,
+      -160
+    ],
+    "ROCE %": [
+      0,
+      0,
+      -13
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36,
+      74.36
+    ],
+    "FIIs\u00a0+": [
+      1.59,
+      2.34,
+      2.32,
+      2.18,
+      2.16,
+      2.03,
+      2.23,
+      2.26,
+      2.46,
+      2.38,
+      2.39,
+      2.34
+    ],
+    "DIIs\u00a0+": [
+      0.0,
+      0.04,
+      0.05,
+      0.04,
+      0.04,
+      0.05,
+      0.06,
+      0.05,
+      0.06,
+      0.07,
+      0.08,
+      0.09
+    ],
+    "Public\u00a0+": [
+      24.05,
+      23.26,
+      23.26,
+      23.4,
+      23.43,
+      23.56,
+      23.35,
+      23.33,
+      23.12,
+      23.19,
+      23.16,
+      23.18
+    ],
+    "No. of Shareholders": [
+      792384,
+      819762,
+      852805,
+      837131,
+      837251,
+      827582,
+      821354,
+      808618,
+      820372,
+      817121,
+      1018223,
+      1044616
+    ]
+  },
+  "market_data": {
+    "Market Cap": 11309,
+    "Current Price": 57.8,
+    "High / Low": "111 / 54.0",
+    "Dividend Yield": 0.0,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [],
+    "cons": [
+      "Company has low interest coverage ratio.",
+      "Earnings include an other income of Rs.1,834 Cr."
+    ]
+  }
+}

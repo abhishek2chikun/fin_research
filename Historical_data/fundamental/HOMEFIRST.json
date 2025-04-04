@@ -1,0 +1,198 @@
+{
+  "symbol": "HOMEFIRST",
+  "url": "https://www.screener.in/company/HOMEFIRST/consolidated/",
+  "timestamp": 1743774034.868491,
+  "quarterly_results": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Gross NPA %": [],
+    "Net NPA %": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Revenue": [],
+    "Interest": [],
+    "Expenses\u00a0+": [],
+    "Financing Profit": [],
+    "Financing Margin %": [],
+    "Other Income\u00a0+": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowing": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Cash from Operating Activity\u00a0+": [],
+    "Cash from Investing Activity\u00a0+": [],
+    "Cash from Financing Activity\u00a0+": [],
+    "Net Cash Flow": []
+  },
+  "ratios": {
+    "date": [],
+    "ROE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024",
+      "Mar 2025"
+    ],
+    "Promoters\u00a0+": [
+      33.58,
+      33.56,
+      33.53,
+      33.46,
+      30.21,
+      30.19,
+      23.6,
+      23.56,
+      23.45,
+      23.38,
+      14.31,
+      14.25
+    ],
+    "FIIs\u00a0+": [
+      9.49,
+      10.31,
+      9.37,
+      15.69,
+      17.56,
+      17.02,
+      24.83,
+      25.09,
+      24.73,
+      25.57,
+      37.91,
+      36.0
+    ],
+    "DIIs\u00a0+": [
+      41.18,
+      6.42,
+      6.51,
+      8.41,
+      10.0,
+      9.96,
+      11.72,
+      11.84,
+      11.96,
+      12.41,
+      18.28,
+      19.82
+    ],
+    "Public\u00a0+": [
+      15.74,
+      49.72,
+      50.58,
+      42.44,
+      42.24,
+      42.83,
+      39.84,
+      39.5,
+      39.85,
+      38.62,
+      29.5,
+      29.93
+    ],
+    "Others\u00a0+": [
+      0.01,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "No. of Shareholders": [
+      62404,
+      73601,
+      74548,
+      73731,
+      78164,
+      78918,
+      78152,
+      76526,
+      75625,
+      78604,
+      86972,
+      88276
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,460 @@
+{
+  "symbol": "SBFC",
+  "url": "https://www.screener.in/company/SBFC/consolidated/",
+  "timestamp": 1743778503.067093,
+  "quarterly_results": {
+    "date": [
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Revenue": [
+      230,
+      246,
+      264,
+      279,
+      298,
+      314,
+      334
+    ],
+    "Interest": [
+      89,
+      89,
+      85,
+      88,
+      95,
+      100,
+      106
+    ],
+    "Expenses\u00a0+": [
+      75,
+      83,
+      90,
+      90,
+      94,
+      100,
+      105
+    ],
+    "Financing Profit": [
+      66,
+      74,
+      89,
+      100,
+      109,
+      114,
+      122
+    ],
+    "Financing Margin %": [
+      29,
+      30,
+      34,
+      36,
+      37,
+      36,
+      37
+    ],
+    "Other Income\u00a0+": [
+      0,
+      0,
+      0,
+      1,
+      0,
+      0,
+      0
+    ],
+    "Depreciation": [
+      3,
+      3,
+      3,
+      4,
+      4,
+      4,
+      5
+    ],
+    "Profit before tax": [
+      63,
+      71,
+      86,
+      97,
+      105,
+      110,
+      118
+    ],
+    "Tax %": [
+      25,
+      26,
+      25,
+      24,
+      25,
+      24,
+      25
+    ],
+    "Net Profit\u00a0+": [
+      47,
+      53,
+      64,
+      74,
+      79,
+      84,
+      88
+    ],
+    "EPS in Rs": [
+      0.51,
+      0.49,
+      0.6,
+      0.69,
+      0.73,
+      0.78,
+      0.82
+    ],
+    "Gross NPA %": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Net NPA %": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "TTM"
+    ],
+    "Revenue": [
+      529,
+      734,
+      1019,
+      1224
+    ],
+    "Interest": [
+      222,
+      278,
+      352,
+      390
+    ],
+    "Expenses\u00a0+": [
+      210,
+      247,
+      338,
+      389
+    ],
+    "Financing Profit": [
+      97,
+      209,
+      329,
+      446
+    ],
+    "Financing Margin %": [
+      18,
+      28,
+      32,
+      36
+    ],
+    "Other Income\u00a0+": [
+      1,
+      5,
+      1,
+      1
+    ],
+    "Depreciation": [
+      12,
+      13,
+      13,
+      16
+    ],
+    "Profit before tax": [
+      87,
+      201,
+      316,
+      431
+    ],
+    "Tax %": [
+      26,
+      26,
+      25,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      65,
+      150,
+      237,
+      325
+    ],
+    "EPS in Rs": [
+      0.77,
+      1.67,
+      2.21,
+      3.02
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      11.0,
+      39.0,
+      11.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      11.0,
+      39.0,
+      11.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      11.0,
+      39.0,
+      11.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "1 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      11.0,
+      39.0,
+      11.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      807,
+      890,
+      1072,
+      1076
+    ],
+    "Reserves": [
+      480,
+      838,
+      1706,
+      1893
+    ],
+    "Deposits": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "Borrowing": [
+      2940,
+      3739,
+      3996,
+      0
+    ],
+    "Other Liabilities\u00a0+": [
+      288,
+      280,
+      289,
+      152
+    ],
+    "Total Liabilities": [
+      4515,
+      5746,
+      7063,
+      7534
+    ],
+    "Fixed Assets\u00a0+": [
+      299,
+      296,
+      300,
+      302
+    ],
+    "CWIP": [
+      0,
+      1,
+      2,
+      0
+    ],
+    "Investments": [
+      848,
+      607,
+      406,
+      260
+    ],
+    "Other Assets\u00a0+": [
+      3368,
+      4843,
+      6355,
+      6971
+    ],
+    "Total Assets": [
+      4515,
+      5746,
+      7063,
+      7534
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Cash from Operating Activity\u00a0+": [
+      -822,
+      -1245,
+      -1155
+    ],
+    "Cash from Investing Activity\u00a0+": [
+      652,
+      206,
+      159
+    ],
+    "Cash from Financing Activity\u00a0+": [
+      183,
+      1071,
+      1037
+    ],
+    "Net Cash Flow": [
+      13,
+      32,
+      41
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "ROE %": [
+      0,
+      10,
+      11
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      64.05,
+      63.74,
+      60.66,
+      55.19,
+      55.05,
+      54.75
+    ],
+    "FIIs\u00a0+": [
+      2.74,
+      2.23,
+      2.86,
+      4.72,
+      4.56,
+      4.92
+    ],
+    "DIIs\u00a0+": [
+      12.42,
+      11.94,
+      13.53,
+      16.24,
+      16.26,
+      16.47
+    ],
+    "Public\u00a0+": [
+      20.36,
+      21.88,
+      22.77,
+      23.7,
+      24.02,
+      23.78
+    ],
+    "Others\u00a0+": [
+      0.45,
+      0.22,
+      0.17,
+      0.16,
+      0.11,
+      0.09
+    ],
+    "No. of Shareholders": [
+      119109,
+      129470,
+      135768,
+      138991,
+      163595,
+      162908
+    ]
+  },
+  "market_data": {
+    "Market Cap": 10098,
+    "Current Price": 93.0,
+    "High / Low": "106 / 77.0",
+    "Stock P/E": 31.1,
+    "Book Value": 27.4,
+    "Dividend Yield": 0.0,
+    "ROCE": 10.9,
+    "ROE": 10.5,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [],
+    "cons": [
+      "Stock is trading at 3.39 times its book value",
+      "Though the company is reporting repeated profits, it is not paying out dividend",
+      "Promoter holding has decreased over last quarter: -0.44%"
+    ]
+  }
+}

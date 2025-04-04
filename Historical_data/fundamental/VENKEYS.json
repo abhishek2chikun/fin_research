@@ -1,0 +1,189 @@
+{
+  "symbol": "VENKEYS",
+  "url": "https://www.screener.in/company/VENKEYS/consolidated/",
+  "timestamp": 1743780762.157711,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11,
+      56.11
+    ],
+    "FIIs\u00a0+": [
+      0.79,
+      0.86,
+      0.83,
+      0.86,
+      0.93,
+      0.95,
+      0.98,
+      1.07,
+      1.25,
+      1.4,
+      1.88,
+      1.34
+    ],
+    "DIIs\u00a0+": [
+      0.15,
+      0.17,
+      0.16,
+      0.17,
+      0.0,
+      0.0,
+      0.03,
+      0.12,
+      0.21,
+      0.21,
+      0.23,
+      0.25
+    ],
+    "Public\u00a0+": [
+      42.96,
+      42.86,
+      42.89,
+      42.85,
+      42.96,
+      42.93,
+      42.89,
+      42.7,
+      42.43,
+      42.28,
+      41.78,
+      42.3
+    ],
+    "No. of Shareholders": [
+      73987,
+      73929,
+      72830,
+      73385,
+      72449,
+      70618,
+      64560,
+      62162,
+      60599,
+      56668,
+      54152,
+      55708
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

@@ -1,0 +1,561 @@
+{
+  "symbol": "EMCURE",
+  "url": "https://www.screener.in/company/EMCURE/consolidated/",
+  "timestamp": 1743772349.882447,
+  "quarterly_results": {
+    "date": [
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Sales\u00a0+": [
+      1556,
+      1663,
+      1668,
+      1771,
+      1815,
+      2002,
+      1963
+    ],
+    "Expenses\u00a0+": [
+      1261,
+      1334,
+      1374,
+      1460,
+      1479,
+      1621,
+      1601
+    ],
+    "Operating Profit": [
+      296,
+      329,
+      294,
+      311,
+      336,
+      381,
+      362
+    ],
+    "OPM %": [
+      19,
+      20,
+      18,
+      18,
+      19,
+      19,
+      18
+    ],
+    "Other Income\u00a0+": [
+      15,
+      -2,
+      22,
+      12,
+      23,
+      36,
+      -3
+    ],
+    "Interest": [
+      52,
+      59,
+      61,
+      65,
+      59,
+      46,
+      32
+    ],
+    "Depreciation": [
+      67,
+      70,
+      84,
+      91,
+      94,
+      97,
+      97
+    ],
+    "Profit before tax": [
+      191,
+      198,
+      171,
+      167,
+      207,
+      273,
+      230
+    ],
+    "Tax %": [
+      26,
+      26,
+      30,
+      27,
+      26,
+      26,
+      32
+    ],
+    "Net Profit\u00a0+": [
+      141,
+      146,
+      120,
+      121,
+      153,
+      202,
+      156
+    ],
+    "EPS in Rs": [
+      7.21,
+      7.69,
+      6.27,
+      6.36,
+      7.95,
+      10.29,
+      8.11
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "TTM"
+    ],
+    "Sales\u00a0+": [
+      4717,
+      5049,
+      5033,
+      5855,
+      5986,
+      6658,
+      7551
+    ],
+    "Expenses\u00a0+": [
+      3968,
+      4340,
+      3817,
+      4525,
+      4804,
+      5429,
+      6161
+    ],
+    "Operating Profit": [
+      749,
+      708,
+      1216,
+      1330,
+      1182,
+      1230,
+      1390
+    ],
+    "OPM %": [
+      16,
+      14,
+      24,
+      23,
+      20,
+      18,
+      18
+    ],
+    "Other Income\u00a0+": [
+      72,
+      -25,
+      -159,
+      63,
+      39,
+      47,
+      67
+    ],
+    "Interest": [
+      223,
+      257,
+      155,
+      176,
+      214,
+      237,
+      202
+    ],
+    "Depreciation": [
+      267,
+      321,
+      250,
+      245,
+      260,
+      312,
+      378
+    ],
+    "Profit before tax": [
+      331,
+      105,
+      652,
+      973,
+      747,
+      727,
+      878
+    ],
+    "Tax %": [
+      37,
+      4,
+      36,
+      28,
+      25,
+      27,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      209,
+      101,
+      419,
+      703,
+      562,
+      528,
+      631
+    ],
+    "EPS in Rs": [
+      10.79,
+      4.62,
+      23.15,
+      36.62,
+      29.42,
+      27.5,
+      32.71
+    ],
+    "Dividend Payout %": [
+      32,
+      0,
+      4,
+      8,
+      7,
+      7,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      21.0,
+      24.0,
+      11.0,
+      18.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      21.0,
+      24.0,
+      11.0,
+      18.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      21.0,
+      24.0,
+      11.0,
+      18.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "5 Years",
+      "3 Years",
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      21.0,
+      24.0,
+      11.0,
+      18.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      181,
+      181,
+      181,
+      181,
+      181,
+      181,
+      189
+    ],
+    "Reserves": [
+      1654,
+      1731,
+      2092,
+      1807,
+      2320,
+      2771,
+      3929
+    ],
+    "Borrowings\u00a0+": [
+      2128,
+      2327,
+      2310,
+      2217,
+      2334,
+      2335,
+      1189
+    ],
+    "Other Liabilities\u00a0+": [
+      1613,
+      1721,
+      2184,
+      1816,
+      1798,
+      2422,
+      2817
+    ],
+    "Total Liabilities": [
+      5577,
+      5960,
+      6768,
+      6021,
+      6634,
+      7709,
+      8124
+    ],
+    "Fixed Assets\u00a0+": [
+      2247,
+      2382,
+      2188,
+      2044,
+      2147,
+      3125,
+      3206
+    ],
+    "CWIP": [
+      581,
+      485,
+      302,
+      320,
+      411,
+      159,
+      178
+    ],
+    "Investments": [
+      0,
+      0,
+      0,
+      25,
+      25,
+      318,
+      64
+    ],
+    "Other Assets\u00a0+": [
+      2749,
+      3093,
+      4278,
+      3632,
+      4050,
+      4108,
+      4677
+    ],
+    "Total Assets": [
+      5577,
+      5960,
+      6768,
+      6021,
+      6634,
+      7709,
+      8124
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      75,
+      83,
+      107,
+      82,
+      101,
+      102
+    ],
+    "Inventory Days": [
+      234,
+      211,
+      293,
+      237,
+      223,
+      225
+    ],
+    "Days Payable": [
+      142,
+      133,
+      188,
+      184,
+      175,
+      193
+    ],
+    "Cash Conversion Cycle": [
+      167,
+      161,
+      212,
+      135,
+      148,
+      134
+    ],
+    "Working Capital Days": [
+      69,
+      67,
+      75,
+      96,
+      112,
+      103
+    ],
+    "ROCE %": [
+      0,
+      11,
+      22,
+      26,
+      21,
+      19
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2019",
+      "Mar 2020",
+      "Mar 2021",
+      "Mar 2022",
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      75,
+      83,
+      107,
+      82,
+      101,
+      102
+    ],
+    "Inventory Days": [
+      234,
+      211,
+      293,
+      237,
+      223,
+      225
+    ],
+    "Days Payable": [
+      142,
+      133,
+      188,
+      184,
+      175,
+      193
+    ],
+    "Cash Conversion Cycle": [
+      167,
+      161,
+      212,
+      135,
+      148,
+      134
+    ],
+    "Working Capital Days": [
+      69,
+      67,
+      75,
+      96,
+      112,
+      103
+    ],
+    "ROCE %": [
+      0,
+      11,
+      22,
+      26,
+      21,
+      19
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      78.08,
+      77.94
+    ],
+    "FIIs\u00a0+": [
+      2.91,
+      3.05
+    ],
+    "DIIs\u00a0+": [
+      3.96,
+      3.87
+    ],
+    "Public\u00a0+": [
+      15.05,
+      15.15
+    ],
+    "No. of Shareholders": [
+      152914,
+      143449
+    ]
+  },
+  "market_data": {
+    "Market Cap": 18764,
+    "Current Price": 991,
+    "High / Low": "1580 / 911",
+    "Stock P/E": 30.9,
+    "Book Value": 217,
+    "Dividend Yield": 0.0,
+    "ROCE": 18.6,
+    "ROE": 18.5,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [
+      "Company has reduced debt."
+    ],
+    "cons": [
+      "The company has delivered a poor sales growth of 7.14% over past five years."
+    ]
+  }
+}

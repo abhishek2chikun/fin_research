@@ -1,0 +1,203 @@
+{
+  "symbol": "HEIDELBERG",
+  "url": "https://www.screener.in/company/HEIDELBERG/consolidated/",
+  "timestamp": 1743773739.771925,
+  "quarterly_results": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Raw PDF": []
+  },
+  "profit_loss": {
+    "date": [],
+    "Sales\u00a0+": [],
+    "Expenses\u00a0+": [],
+    "Operating Profit": [],
+    "OPM %": [],
+    "Other Income\u00a0+": [],
+    "Interest": [],
+    "Depreciation": [],
+    "Profit before tax": [],
+    "Tax %": [],
+    "Net Profit\u00a0+": [],
+    "EPS in Rs": [],
+    "Dividend Payout %": []
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Sales Growth": [
+      10.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "10 Years"
+    ],
+    "Compounded Profit Growth": [
+      10.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "10 Years"
+    ],
+    "Stock Price Cagr": [
+      10.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "10 Years"
+    ],
+    "Return On Equity": [
+      10.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [],
+    "Equity Capital": [],
+    "Reserves": [],
+    "Borrowings\u00a0+": [],
+    "Other Liabilities\u00a0+": [],
+    "Total Liabilities": [],
+    "Fixed Assets\u00a0+": [],
+    "CWIP": [],
+    "Investments": [],
+    "Other Assets\u00a0+": [],
+    "Total Assets": []
+  },
+  "cash_flows": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "ratios": {
+    "date": [],
+    "Debtor Days": [],
+    "Inventory Days": [],
+    "Days Payable": [],
+    "Cash Conversion Cycle": [],
+    "Working Capital Days": [],
+    "ROCE %": []
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Mar 2022",
+      "Jun 2022",
+      "Sep 2022",
+      "Dec 2022",
+      "Mar 2023",
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39,
+      69.39
+    ],
+    "FIIs\u00a0+": [
+      5.45,
+      6.4,
+      5.16,
+      4.81,
+      4.76,
+      4.73,
+      3.91,
+      4.33,
+      4.48,
+      4.42,
+      3.13,
+      2.31
+    ],
+    "DIIs\u00a0+": [
+      10.65,
+      10.04,
+      9.72,
+      10.12,
+      10.32,
+      9.04,
+      8.97,
+      10.01,
+      10.82,
+      10.81,
+      11.89,
+      12.67
+    ],
+    "Government\u00a0+": [
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14,
+      0.14
+    ],
+    "Public\u00a0+": [
+      14.36,
+      14.03,
+      15.59,
+      15.53,
+      15.38,
+      16.7,
+      17.58,
+      16.12,
+      15.16,
+      15.25,
+      15.43,
+      15.49
+    ],
+    "No. of Shareholders": [
+      103076,
+      100827,
+      102639,
+      102580,
+      102721,
+      102999,
+      102650,
+      91101,
+      89345,
+      89805,
+      92039,
+      87647
+    ]
+  },
+  "market_data": {},
+  "remarks": {
+    "pros": [],
+    "cons": []
+  }
+}

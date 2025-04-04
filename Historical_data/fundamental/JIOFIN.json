@@ -1,0 +1,428 @@
+{
+  "symbol": "JIOFIN",
+  "url": "https://www.screener.in/company/JIOFIN/consolidated/",
+  "timestamp": 1743775321.3943639,
+  "quarterly_results": {
+    "date": [
+      "Jun 2023",
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Sales\u00a0+": [
+      414,
+      608,
+      414,
+      418,
+      418,
+      694,
+      438
+    ],
+    "Expenses\u00a0+": [
+      38,
+      66,
+      94,
+      98,
+      74,
+      140,
+      125
+    ],
+    "Operating Profit": [
+      376,
+      542,
+      320,
+      320,
+      344,
+      553,
+      313
+    ],
+    "OPM %": [
+      91,
+      89,
+      77,
+      77,
+      82,
+      80,
+      71
+    ],
+    "Other Income\u00a0+": [
+      67,
+      218,
+      67,
+      78,
+      62,
+      226,
+      70
+    ],
+    "Interest": [
+      10,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Depreciation": [
+      5,
+      5,
+      5,
+      5,
+      5,
+      6,
+      6
+    ],
+    "Profit before tax": [
+      427,
+      754,
+      381,
+      393,
+      400,
+      773,
+      377
+    ],
+    "Tax %": [
+      22,
+      11,
+      23,
+      21,
+      22,
+      11,
+      22
+    ],
+    "Net Profit\u00a0+": [
+      332,
+      668,
+      294,
+      311,
+      313,
+      689,
+      295
+    ],
+    "EPS in Rs": [
+      0,
+      1.05,
+      0.46,
+      0.49,
+      0.49,
+      1.08,
+      0.46
+    ],
+    "Raw PDF": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ]
+  },
+  "profit_loss": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024",
+      "TTM"
+    ],
+    "Sales\u00a0+": [
+      45,
+      1855,
+      1968
+    ],
+    "Expenses\u00a0+": [
+      6,
+      296,
+      437
+    ],
+    "Operating Profit": [
+      39,
+      1559,
+      1531
+    ],
+    "OPM %": [
+      88,
+      84,
+      78
+    ],
+    "Other Income\u00a0+": [
+      10,
+      429,
+      435
+    ],
+    "Interest": [
+      0,
+      10,
+      0
+    ],
+    "Depreciation": [
+      0,
+      22,
+      22
+    ],
+    "Profit before tax": [
+      49,
+      1956,
+      1944
+    ],
+    "Tax %": [
+      37,
+      18,
+      0
+    ],
+    "Net Profit\u00a0+": [
+      31,
+      1605,
+      1607
+    ],
+    "EPS in Rs": [
+      0,
+      2.53,
+      2.52
+    ],
+    "Dividend Payout %": [
+      0,
+      0,
+      0
+    ]
+  },
+  "compounded_sales_growth": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Sales Growth": [
+      4036.0,
+      1.0
+    ]
+  },
+  "compounded_profit_growth": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Compounded Profit Growth": [
+      4036.0,
+      1.0
+    ]
+  },
+  "stock_price_cagr": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Stock Price Cagr": [
+      4036.0,
+      1.0
+    ]
+  },
+  "return_on_equity": {
+    "date": [
+      "TTM",
+      "Last Year"
+    ],
+    "Return On Equity": [
+      4036.0,
+      1.0
+    ]
+  },
+  "balance_sheet": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024",
+      "Sep 2024"
+    ],
+    "Equity Capital": [
+      2,
+      6353,
+      6353
+    ],
+    "Reserves": [
+      114118,
+      132794,
+      130791
+    ],
+    "Borrowings\u00a0+": [
+      743,
+      0,
+      0
+    ],
+    "Other Liabilities\u00a0+": [
+      66,
+      5715,
+      7078
+    ],
+    "Total Liabilities": [
+      114930,
+      144863,
+      144222
+    ],
+    "Fixed Assets\u00a0+": [
+      158,
+      172,
+      171
+    ],
+    "CWIP": [
+      38,
+      3,
+      0
+    ],
+    "Investments": [
+      108141,
+      133292,
+      137439
+    ],
+    "Other Assets\u00a0+": [
+      6593,
+      11395,
+      6613
+    ],
+    "Total Assets": [
+      114930,
+      144863,
+      144222
+    ]
+  },
+  "cash_flows": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      113,
+      3
+    ],
+    "Inventory Days": [
+      0,
+      0
+    ],
+    "Days Payable": [
+      0,
+      0
+    ],
+    "Cash Conversion Cycle": [
+      113,
+      3
+    ],
+    "Working Capital Days": [
+      3644,
+      21
+    ],
+    "ROCE %": [
+      0,
+      2
+    ]
+  },
+  "ratios": {
+    "date": [
+      "Mar 2023",
+      "Mar 2024"
+    ],
+    "Debtor Days": [
+      113,
+      3
+    ],
+    "Inventory Days": [
+      0,
+      0
+    ],
+    "Days Payable": [
+      0,
+      0
+    ],
+    "Cash Conversion Cycle": [
+      113,
+      3
+    ],
+    "Working Capital Days": [
+      3644,
+      21
+    ],
+    "ROCE %": [
+      0,
+      2
+    ]
+  },
+  "shareholding_pattern": {
+    "date": [
+      "Sep 2023",
+      "Dec 2023",
+      "Mar 2024",
+      "Jun 2024",
+      "Sep 2024",
+      "Dec 2024"
+    ],
+    "Promoters\u00a0+": [
+      46.77,
+      47.12,
+      47.12,
+      47.12,
+      47.12,
+      47.12
+    ],
+    "FIIs\u00a0+": [
+      21.58,
+      19.83,
+      19.45,
+      17.55,
+      16.88,
+      15.62
+    ],
+    "DIIs\u00a0+": [
+      13.64,
+      12.99,
+      12.5,
+      11.79,
+      11.39,
+      12.46
+    ],
+    "Government\u00a0+": [
+      0.13,
+      0.14,
+      0.14,
+      0.15,
+      0.15,
+      0.17
+    ],
+    "Public\u00a0+": [
+      17.86,
+      19.92,
+      20.77,
+      23.39,
+      24.46,
+      24.61
+    ],
+    "No. of Shareholders": [
+      3983144,
+      4083129,
+      4399041,
+      4802851,
+      4860795,
+      4978984
+    ]
+  },
+  "market_data": {
+    "Market Cap": 141222,
+    "Current Price": 222,
+    "High / Low": "395 / 199",
+    "Stock P/E": 87.9,
+    "Book Value": 216,
+    "Dividend Yield": 0.0,
+    "ROCE": 1.55,
+    "ROE": 1.27,
+    "Face Value": 10.0
+  },
+  "remarks": {
+    "pros": [
+      "Company has reduced debt.",
+      "Company is almost debt free.",
+      "Stock is trading at 1.03 times its book value",
+      "Company's working capital requirements have reduced from 1,832 days to 20.6 days"
+    ],
+    "cons": [
+      "Though the company is reporting repeated profits, it is not paying out dividend"
+    ]
+  }
+}
