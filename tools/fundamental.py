@@ -1164,143 +1164,385 @@ def get_debt_to_equity(ticker: str) -> Dict[str, Any]:
     
     return {}
 
-def get_free_cash_flow(ticker: str) -> Dict[str, Any]:
+def get_free_cash_flow(ticker: str) -> dict:
     """
-    Get Free Cash Flow data for a ticker.
+    Calculate free cash flow (FCF) for a ticker.
     
     Args:
         ticker: The ticker symbol
         
     Returns:
-        Dictionary with Free Cash Flow data
+        Dictionary containing FCF data, including historical values, current value,
+        FCF yield, and trend information
     """
-    # Get cash flow data
-    cash_flows = get_cash_flows(ticker)
-    market_cap_value = get_market_cap(ticker)
+    # Try calculating FCF from components: NI + Depreciation - Capex - WC Change
+    try:
+        # Get required components
+        net_income_data = get_net_income(ticker)
+        depreciation_data = get_depreciation_amortization(ticker)
+        capex_data = get_capital_expenditure(ticker)
+        wc_change_data = get_working_capital_change(ticker)
+        
+        # Check if we have all components for current value
+        if (net_income_data and "current_value" in net_income_data and
+            depreciation_data and "current_value" in depreciation_data and
+            capex_data and "current_value" in capex_data and
+            wc_change_data and "current_change" in wc_change_data):
+            
+            # Calculate FCF
+            ni = net_income_data["current_value"]
+            dep = depreciation_data["current_value"]
+            capex = capex_data["current_value"]
+            wc_change = wc_change_data["current_change"]
+            
+            fcf = ni + dep - capex - wc_change
+            
+            # Get historical FCF data if possible
+            historical_fcf = []
+            if (all(k in net_income_data for k in ["dates", "values"]) and
+                all(k in depreciation_data for k in ["dates", "values"])):
+                
+                # Get the minimum length of all component arrays
+                min_length = min(
+                    len(net_income_data.get("values", [])),
+                    len(depreciation_data.get("values", []))
+                )
+                
+                # If we have historical values, calculate historical FCF
+                if min_length > 0:
+                    for i in range(min_length):
+                        hist_ni = net_income_data["values"][i] if i < len(net_income_data["values"]) else None
+                        hist_dep = depreciation_data["values"][i] if i < len(depreciation_data["values"]) else None
+                        
+                        # We may not have historical capex and wc_change values,
+                        # so use estimates or current values as approximation
+                        if hist_ni is not None and hist_dep is not None:
+                            # Use current values as estimates if historical not available
+                            estimated_capex = capex
+                            estimated_wc_change = wc_change
+                            
+                            hist_fcf = hist_ni + hist_dep - estimated_capex - estimated_wc_change
+                            historical_fcf.append(hist_fcf)
+                        else:
+                            historical_fcf.append(None)
+            
+            # Calculate FCF yield if market cap is available
+            market_cap = get_market_cap(ticker)
+            fcf_yield = None
+            if market_cap and market_cap > 0:
+                fcf_yield = fcf / market_cap
+            
+            # Determine FCF trend
+            trend = None
+            if len(historical_fcf) >= 2 and all(x is not None for x in historical_fcf[-2:]):
+                if historical_fcf[-1] > historical_fcf[-2]:
+                    trend = "improving"
+                elif historical_fcf[-1] < historical_fcf[-2]:
+                    trend = "declining"
+                else:
+                    trend = "stable"
+            
+            return {
+                "historical_fcf": historical_fcf,
+                "current_fcf": fcf,
+                "fcf_yield": fcf_yield,
+                "trend": trend,
+                "is_positive": fcf > 0,
+                "calculation_method": "component_based"
+            }
+    except Exception as e:
+        print(f"Error calculating FCF from components for {ticker}: {str(e)}")
     
-    if cash_flows and "date" in cash_flows:
-        dates = cash_flows["date"]
+    # If we couldn't calculate from components, try to find FCF directly in cash flows
+    try:
+        # Get cash flow data
+        cash_flows = get_cash_flows(ticker)
+        market_cap_value = get_market_cap(ticker)
         
-        # Look for FCF in direct form
-        for field in ["Free Cash Flow", "FCF"]:
-            if field in cash_flows:
-                fcf_values = cash_flows[field]
-                
-                if fcf_values and len(fcf_values) > 0:
-                    # Convert to float
-                    fcf = [safe_float_convert(v) for v in fcf_values]
-                    
-                    if fcf:
-                        current_fcf = fcf[-1] if fcf else None
-                        is_positive = all(v and v > 0 for v in fcf if v is not None)
-                        
-                        # Try to calculate FCF yield if we have market cap
-                        fcf_yield = None
-                        if market_cap_value and current_fcf and current_fcf > 0:
-                            fcf_yield = current_fcf / market_cap_value
-                        
-                        return {
-                            "dates": dates,
-                            "historical_fcf": fcf,
-                            "current_fcf": current_fcf,
-                            "is_positive": is_positive,
-                            "fcf_yield": fcf_yield,
-                            "average": sum(v for v in fcf if v is not None) / len([v for v in fcf if v is not None]) if fcf else None
-                        }
-        
-        # For banks and financial institutions, use net cash flow as a proxy for FCF
-        if is_banking_entity(ticker) and "Net Cash Flow" in cash_flows:
-            net_cash_values = cash_flows["Net Cash Flow"]
+        if cash_flows and "date" in cash_flows:
+            dates = cash_flows["date"]
             
-            if net_cash_values and len(net_cash_values) > 0:
-                # Convert to float
-                net_cash = [safe_float_convert(v) for v in net_cash_values]
-                
-                if net_cash:
-                    current_net_cash = net_cash[-1] if net_cash else None
-                    is_positive = all(v and v > 0 for v in net_cash if v is not None)
-                    
-                    # Try to calculate yield if we have market cap
-                    cash_yield = None
-                    if market_cap_value and current_net_cash and current_net_cash > 0:
-                        cash_yield = current_net_cash / market_cap_value
-                    
-                    return {
-                        "dates": dates,
-                        "historical_fcf": net_cash,
-                        "current_fcf": current_net_cash,
-                        "is_positive": is_positive,
-                        "fcf_yield": cash_yield,
-                        "average": sum(v for v in net_cash if v is not None) / len([v for v in net_cash if v is not None]) if net_cash else None,
-                        "source": "net_cash_flow"
-                    }
-        
-        # Try to calculate FCF from Operating Cash Flow - Capital Expenditures
-        if "Cash from Operating Activity" in cash_flows:
-            operating_cash = cash_flows["Cash from Operating Activity"]
-            
-            # For standard companies, subtract Capital Expenditures
-            capex_field = None
-            for field in ["Capital Expenditure", "CAPEX", "Purchase of Fixed Assets"]:
+            # Look for FCF in direct form
+            for field in ["Free Cash Flow", "FCF"]:
                 if field in cash_flows:
-                    capex_field = field
-                    break
+                    fcf_values = cash_flows[field]
+                    
+                    if fcf_values and len(fcf_values) > 0:
+                        # Convert to float
+                        fcf = [safe_float_convert(v) for v in fcf_values]
+                        
+                        if fcf:
+                            current_fcf = fcf[-1] if fcf else None
+                            is_positive = any(v and v > 0 for v in fcf if v is not None)
+                            
+                            # Try to calculate FCF yield if we have market cap
+                            fcf_yield = None
+                            if market_cap_value and current_fcf and current_fcf > 0:
+                                fcf_yield = current_fcf / market_cap_value
+                            
+                            return {
+                                "dates": dates,
+                                "historical_fcf": fcf,
+                                "current_fcf": current_fcf,
+                                "is_positive": is_positive,
+                                "fcf_yield": fcf_yield,
+                                "average": sum(v for v in fcf if v is not None) / len([v for v in fcf if v is not None]) if fcf else None,
+                                "calculation_method": "direct"
+                            }
+    except Exception as e:
+        print(f"Error finding direct FCF for {ticker}: {str(e)}")
+        
+    # If we still don't have FCF, return None
+    return None
+
+def get_cost_of_goods_sold(ticker: str) -> dict:
+    """
+    Get Cost of Goods Sold (COGS) data for a ticker.
+    
+    Args:
+        ticker: The ticker symbol
+        
+    Returns:
+        Dictionary containing COGS data, including historical values and current value
+    """
+    # Get fundamental data
+    fundamental_data = fetch_fundamental_data(ticker)
+    if not fundamental_data or "profit_loss" not in fundamental_data:
+        return {}
+    
+    profit_loss = fundamental_data["profit_loss"]
+    
+    # Check various possible field names for COGS
+    for field in ["Cost of Goods Sold", "COGS", "Cost of Sales", "Cost of Revenue"]:
+        if field in profit_loss:
+            cogs_values = profit_loss[field]
+            dates = profit_loss.get("date", [])
             
-            # If capex field was found
-            if capex_field and cash_flows[capex_field] and len(operating_cash) == len(cash_flows[capex_field]):
-                fcf = []
-                for i in range(len(operating_cash)):
-                    ocf = safe_float_convert(operating_cash[i])
-                    capex = safe_float_convert(cash_flows[capex_field][i])
-                    
-                    if ocf is not None and capex is not None:
-                        fcf.append(ocf - capex)
-                    else:
-                        fcf.append(None)
+            if cogs_values and len(cogs_values) > 0:
+                # Convert to float
+                cogs_values = [safe_float_convert(v) for v in cogs_values]
                 
-                if fcf:
-                    current_fcf = fcf[-1] if fcf else None
-                    is_positive = any(v and v > 0 for v in fcf if v is not None)
-                    
-                    # Try to calculate FCF yield if we have market cap
-                    fcf_yield = None
-                    if market_cap_value and current_fcf and current_fcf > 0:
-                        fcf_yield = current_fcf / market_cap_value
+                return {
+                    "dates": dates,
+                    "values": cogs_values,
+                    "current_value": cogs_values[0] if cogs_values else None,
+                    "is_directly_available": True
+                }
+    
+    # If no direct COGS field, try to calculate from Sales - Gross Profit if available
+    if "Sales\xa0+" in profit_loss:
+        sales = profit_loss["Sales\xa0+"]
+        
+        for field in ["Gross Profit"]:
+            if field in profit_loss:
+                gross_profit = profit_loss[field]
+                dates = profit_loss.get("date", [])
+                
+                if sales and gross_profit and len(sales) == len(gross_profit):
+                    # Calculate COGS as Sales - Gross Profit
+                    cogs_values = []
+                    for s, gp in zip(sales, gross_profit):
+                        if s is not None and gp is not None:
+                            cogs_values.append(s - gp)
+                        else:
+                            cogs_values.append(None)
                     
                     return {
                         "dates": dates,
-                        "historical_fcf": fcf,
-                        "current_fcf": current_fcf,
-                        "is_positive": is_positive,
-                        "fcf_yield": fcf_yield,
-                        "average": sum(v for v in fcf if v is not None) / len([v for v in fcf if v is not None]) if fcf else None,
-                        "source": "calculated"
-                    }
-            
-            # For banks: If we have operating cash flow but no capex, just use operating cash flow
-            elif is_banking_entity(ticker):
-                ocf_values = [safe_float_convert(v) for v in operating_cash]
-                
-                if ocf_values:
-                    current_ocf = ocf_values[-1] if ocf_values else None
-                    is_positive = any(v and v > 0 for v in ocf_values if v is not None)
-                    
-                    # Try to calculate yield if we have market cap
-                    ocf_yield = None
-                    if market_cap_value and current_ocf and current_ocf > 0:
-                        ocf_yield = current_ocf / market_cap_value
-                    
-                    return {
-                        "dates": dates,
-                        "historical_fcf": ocf_values,
-                        "current_fcf": current_ocf,
-                        "is_positive": is_positive,
-                        "fcf_yield": ocf_yield,
-                        "average": sum(v for v in ocf_values if v is not None) / len([v for v in ocf_values if v is not None]) if ocf_values else None,
-                        "source": "operating_cash_flow"
+                        "values": cogs_values,
+                        "current_value": cogs_values[0] if cogs_values else None,
+                        "is_calculated": True,
+                        "calculation_method": "sales_minus_gross_profit"
                     }
     
-    return {} 
+    # If we still don't have COGS, try to estimate from Sales and typical industry margin
+    if "Sales\xa0+" in profit_loss:
+        sales = profit_loss["Sales\xa0+"]
+        dates = profit_loss.get("date", [])
+        
+        if sales and len(sales) > 0:
+            # Assuming a typical gross margin of 40%, COGS would be 60% of sales
+            cogs_values = [s * 0.6 if s is not None else None for s in sales]
+            
+            return {
+                "dates": dates,
+                "values": cogs_values, 
+                "current_value": cogs_values[0] if cogs_values else None,
+                "is_estimated": True,
+                "estimation_method": "percentage_of_sales"
+            }
+    
+    # Use expenses as a proxy for COGS if nothing else is available
+    if "Expenses\xa0+" in profit_loss:
+        expenses = profit_loss["Expenses\xa0+"]
+        dates = profit_loss.get("date", [])
+        
+        if expenses and len(expenses) > 0:
+            return {
+                "dates": dates,
+                "values": expenses,
+                "current_value": expenses[0] if expenses else None,
+                "is_estimated": True,
+                "estimation_method": "total_expenses",
+                "note": "Using total expenses as a proxy for COGS"
+            }
+    
+    return {}
+
+def get_gross_margin(ticker: str) -> dict:
+    """
+    Calculate Gross Margin for a ticker from Sales and Cost of Goods Sold.
+    
+    Args:
+        ticker: The ticker symbol
+        
+    Returns:
+        Dictionary containing gross margin data, including historical values and current value
+    """
+    # Get fundamental data
+    fundamental_data = fetch_fundamental_data(ticker)
+    if not fundamental_data or "profit_loss" not in fundamental_data:
+        return {}
+    
+    profit_loss = fundamental_data["profit_loss"]
+    
+    # Check if Gross Margin is directly available
+    if "Gross Margin %" in profit_loss:
+        gross_margin = profit_loss["Gross Margin %"]
+        dates = profit_loss.get("date", [])
+        
+        if gross_margin and len(gross_margin) > 0:
+            # Convert percentages to decimals if needed
+            gross_margin_values = [safe_float_convert(m) for m in gross_margin]
+            gross_margin_values = [m/100 if m and m > 1 else m for m in gross_margin_values]
+            
+            return {
+                "dates": dates,
+                "values": gross_margin_values,
+                "current_value": gross_margin_values[0] if gross_margin_values else None,
+                "is_directly_available": True
+            }
+    
+    # If not directly available, try to calculate from Sales and COGS
+    cogs_data = get_cost_of_goods_sold(ticker)
+    
+    if "Sales\xa0+" in profit_loss and cogs_data and "values" in cogs_data:
+        sales = profit_loss["Sales\xa0+"]
+        cogs = cogs_data["values"]
+        dates = profit_loss.get("date", [])
+        
+        if sales and cogs and len(sales) == len(cogs):
+            # Calculate gross margin: (Sales - COGS) / Sales
+            gross_margin_values = []
+            for s, c in zip(sales, cogs):
+                if s and s != 0 and c is not None:
+                    gm = (s - c) / s
+                    gross_margin_values.append(gm)
+                else:
+                    gross_margin_values.append(None)
+            
+            if gross_margin_values:
+                return {
+                    "dates": dates,
+                    "values": gross_margin_values,
+                    "current_value": gross_margin_values[0] if gross_margin_values else None,
+                    "is_calculated": True,
+                    "calculation_method": "sales_minus_cogs"
+                }
+    
+    # If not available from COGS, try calculating from Sales and Expenses
+    if "Sales\xa0+" in profit_loss and "Expenses\xa0+" in profit_loss:
+        sales = profit_loss["Sales\xa0+"]
+        expenses = profit_loss["Expenses\xa0+"]
+        dates = profit_loss.get("date", [])
+        
+        if sales and expenses and len(sales) == len(expenses):
+            # Calculate gross margin: (Sales - Expenses) / Sales
+            gross_margin_values = []
+            for s, e in zip(sales, expenses):
+                if s and s != 0:
+                    gm = (1 - e/s)
+                    gross_margin_values.append(gm)
+                else:
+                    gross_margin_values.append(None)
+            
+            if gross_margin_values:
+                return {
+                    "dates": dates,
+                    "values": gross_margin_values,
+                    "current_value": gross_margin_values[0] if gross_margin_values else None,
+                    "is_calculated": True,
+                    "calculation_method": "sales_minus_expenses"
+                }
+    
+    # If we can't calculate gross margin, try to use operating margin as an approximation
+    operating_data = get_operating_margin(ticker)
+    if operating_data and "current_operating_margin" in operating_data:
+        # Operating margin is usually lower than gross margin
+        # Apply a conservative multiplier (typical gross margins are 1.5-2x operating margins)
+        operating_margin = operating_data["current_operating_margin"]
+        estimated_gross_margin = operating_margin * 1.5
+        
+        return {
+            "dates": operating_data.get("dates", []),
+            "values": [m * 1.5 if m is not None else None for m in operating_data.get("values", [])],
+            "current_value": estimated_gross_margin,
+            "is_estimated": True,
+            "estimation_method": "from_operating_margin"
+        }
+    
+    return {}
+
+def get_research_and_development(ticker: str) -> dict:
+    """
+    Get research and development expenses for a ticker.
+    This is a placeholder function for when R&D data is not available.
+    
+    Args:
+        ticker: The ticker symbol
+        
+    Returns:
+        Dictionary containing R&D data with empty values and availability flag set to False
+    """
+    # Try to find R&D expenses in profit and loss statement
+    fundamental_data = fetch_fundamental_data(ticker)
+    if fundamental_data and "profit_loss" in fundamental_data:
+        profit_loss = fundamental_data["profit_loss"]
+        
+        # Check various possible R&D field names
+        for field in ["Research & Development", "Research and Development", "R&D Expenses", "R&D"]:
+            if field in profit_loss:
+                rd_values = profit_loss[field]
+                dates = profit_loss.get("date", [])
+                
+                if rd_values and len(rd_values) > 0:
+                    # Convert to float
+                    rd_values = [safe_float_convert(v) for v in rd_values]
+                    
+                    # Calculate percentage of revenue if possible
+                    percentage_of_revenue = None
+                    if "Sales\xa0+" in profit_loss and profit_loss["Sales\xa0+"] and len(profit_loss["Sales\xa0+"]) > 0:
+                        sales = profit_loss["Sales\xa0+"][0]
+                        if sales and sales != 0 and rd_values[0] is not None:
+                            percentage_of_revenue = rd_values[0] / sales
+                    
+                    return {
+                        "historical_values": rd_values,
+                        "current_value": rd_values[0] if rd_values else None,
+                        "percentage_of_revenue": percentage_of_revenue,
+                        "available": True,
+                        "dates": dates
+                    }
+    
+    # R&D data is not available in the current fundamental data structure
+    # This function is provided as a placeholder to maintain compatibility
+    return {
+        "historical_values": [],
+        "current_value": 0,
+        "percentage_of_revenue": 0,
+        "available": False,
+        "message": "R&D data is not available in the current fundamental data structure"
+    }
 
 # Fix recursion issue by defining new functions instead of aliases
 
@@ -1699,4 +1941,3 @@ def get_research_and_development(ticker: str) -> Dict[str, Any]:
         "is_available": False
     }
 
-# Remove the aliases and wrapper functions to avoid recursion 

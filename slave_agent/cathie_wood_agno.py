@@ -20,6 +20,8 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 # Import tools
 from tools.fundamental import fetch_fundamental_data, get_market_cap, get_revenue_growth
 from tools.fundamental import get_operating_margin, get_free_cash_flow, get_research_and_development
+from tools.fundamental import get_gross_margin, get_net_income, get_depreciation_amortization
+from tools.fundamental import get_capital_expenditure, get_working_capital_change
 from tools.ohlcv import fetch_ohlcv_data, OHLCVData
 
 def safe_float_convert(value):
@@ -95,14 +97,13 @@ def analyze_disruptive_potential(ticker: str) -> dict:
         details.append("Revenue growth data not available")
     
     # 2. Gross Margin Analysis - Check for expanding margins
-    gross_margins = []
-    if "profit_loss" in fundamental_data and "Gross Margin %" in fundamental_data["profit_loss"]:
-        raw_margins = fundamental_data["profit_loss"]["Gross Margin %"]
-        # Convert percentages to decimals if needed
-        gross_margins = [m/100 if m and m > 1 else m for m in raw_margins if m is not None]
+    gross_margin_data = get_gross_margin(ticker)
     
-    if len(gross_margins) >= 2:
-        margin_trend = gross_margins[-1] - gross_margins[0]
+    if gross_margin_data and "values" in gross_margin_data and len(gross_margin_data["values"]) >= 2:
+        gross_margins = gross_margin_data["values"]
+        
+        # Check for trend
+        margin_trend = gross_margins[0] - gross_margins[-1]  # current - oldest
         if margin_trend > 0.05:  # 5% improvement
             score += 2
             details.append(f"Expanding gross margins: +{(margin_trend*100):.1f}%")
@@ -111,12 +112,17 @@ def analyze_disruptive_potential(ticker: str) -> dict:
             details.append(f"Slightly improving gross margins: +{(margin_trend*100):.1f}%")
 
         # Check absolute margin level
-        if gross_margins[-1] > 0.50:  # High margin business
-            score += 2
-            details.append(f"High gross margin: {(gross_margins[-1]*100):.1f}%")
-        elif gross_margins[-1] > 0.35:  # Good margin business
-            score += 1
-            details.append(f"Good gross margin: {(gross_margins[-1]*100):.1f}%")
+        current_margin = gross_margin_data.get("current_value")
+        if current_margin:
+            if current_margin > 0.50:  # High margin business
+                score += 2
+                details.append(f"High gross margin: {(current_margin*100):.1f}%")
+            elif current_margin > 0.35:  # Good margin business
+                score += 1
+                details.append(f"Good gross margin: {(current_margin*100):.1f}%")
+            
+            if "is_estimated" in gross_margin_data and gross_margin_data["is_estimated"]:
+                details.append("Note: Gross margin is estimated")
     else:
         details.append("Insufficient gross margin data")
     
@@ -248,6 +254,43 @@ def analyze_innovation_growth(ticker: str) -> dict:
     
     # 2. Free Cash Flow Analysis
     fcf_data = get_free_cash_flow(ticker)
+    
+    # If FCF data is not available, try to calculate it manually
+    if not fcf_data:
+        ni_data = get_net_income(ticker)
+        dep_data = get_depreciation_amortization(ticker)
+        capex_data = get_capital_expenditure(ticker)
+        wc_change_data = get_working_capital_change(ticker)
+        
+        if (ni_data and "current_value" in ni_data and
+            dep_data and "current_value" in dep_data and
+            capex_data and "current_value" in capex_data and
+            wc_change_data and "current_change" in wc_change_data):
+            
+            # Calculate FCF manually
+            ni = ni_data["current_value"]
+            dep = dep_data["current_value"]
+            capex = capex_data["current_value"]
+            wc_change = wc_change_data["current_change"]
+            
+            manual_fcf = ni + dep - capex - wc_change
+            
+            # Get market cap for yield calculation
+            market_cap = get_market_cap(ticker)
+            fcf_yield = None
+            if market_cap and market_cap > 0:
+                fcf_yield = manual_fcf / market_cap
+            
+            # Create a simple FCF data structure
+            fcf_data = {
+                "current_fcf": manual_fcf,
+                "fcf_yield": fcf_yield,
+                "is_positive": manual_fcf > 0,
+                "calculation_method": "manual"
+            }
+            
+            details.append(f"FCF calculated manually: {manual_fcf:.1f}")
+    
     if fcf_data and "current_fcf" in fcf_data:
         current_fcf = fcf_data["current_fcf"]
         is_positive = fcf_data.get("is_positive", False)
@@ -295,21 +338,25 @@ def analyze_innovation_growth(ticker: str) -> dict:
         details.append("Operating margin data not available")
     
     # 4. Capital Allocation Analysis
-    capex = []
-    if "cash_flows" in fundamental_data and "Capital Expenditure" in fundamental_data["cash_flows"]:
-        capex = [abs(c) for c in fundamental_data["cash_flows"]["Capital Expenditure"] if c is not None]
-    
-    if capex and revenue_data and "historical_values" in revenue_data and len(capex) >= 2:
+    capex_data = get_capital_expenditure(ticker)
+    if capex_data and "current_value" in capex_data and revenue_data and "historical_values" in revenue_data:
+        capex = capex_data["current_value"]
         revenues = revenue_data["historical_values"]
-        capex_intensity = abs(capex[-1]) / revenues[-1] if revenues[-1] != 0 else 0
-        capex_growth = (abs(capex[-1]) - abs(capex[0])) / abs(capex[0]) if capex[0] != 0 else 0
-
-        if capex_intensity > 0.10 and capex_growth > 0.2:
-            score += 2
-            details.append("Strong investment in growth infrastructure")
-        elif capex_intensity > 0.05:
-            score += 1
-            details.append("Moderate investment in growth infrastructure")
+        
+        if revenues and len(revenues) > 0:
+            current_revenue = revenues[0]  # Most recent revenue
+            capex_intensity = capex / current_revenue if current_revenue != 0 else 0
+            
+            if capex_intensity > 0.10:
+                score += 2
+                details.append(f"Strong investment in growth infrastructure: {capex_intensity*100:.1f}% of revenue")
+            elif capex_intensity > 0.05:
+                score += 1
+                details.append(f"Moderate investment in growth infrastructure: {capex_intensity*100:.1f}% of revenue")
+            else:
+                details.append(f"Limited capital investment: {capex_intensity*100:.1f}% of revenue")
+        else:
+            details.append("Insufficient revenue data for CAPEX analysis")
     else:
         details.append("Insufficient CAPEX data")
     
@@ -318,16 +365,22 @@ def analyze_innovation_growth(ticker: str) -> dict:
     if "cash_flows" in fundamental_data and "Dividends Paid" in fundamental_data["cash_flows"]:
         dividends = [abs(d) for d in fundamental_data["cash_flows"]["Dividends Paid"] if d is not None]
     
+    # Use either the calculated FCF or manual calculation
     if dividends and fcf_data and "current_fcf" in fcf_data:
         current_fcf = fcf_data["current_fcf"]
-        # Check if company prioritizes reinvestment over dividends
-        latest_payout_ratio = dividends[-1] / current_fcf if current_fcf != 0 else 1
-        if latest_payout_ratio < 0.2:  # Low dividend payout ratio suggests reinvestment focus
-            score += 2
-            details.append("Strong focus on reinvestment over dividends")
-        elif latest_payout_ratio < 0.4:
-            score += 1
-            details.append("Moderate focus on reinvestment over dividends")
+        # Only proceed if we have valid dividend data
+        if dividends and len(dividends) > 0 and current_fcf != 0:
+            latest_dividend = dividends[0]  # Most recent dividend
+            latest_payout_ratio = latest_dividend / current_fcf if current_fcf != 0 else 1
+            
+            if latest_payout_ratio < 0.2:  # Low dividend payout ratio suggests reinvestment focus
+                score += 2
+                details.append(f"Strong focus on reinvestment over dividends: {latest_payout_ratio*100:.1f}% payout ratio")
+            elif latest_payout_ratio < 0.4:
+                score += 1
+                details.append(f"Moderate focus on reinvestment over dividends: {latest_payout_ratio*100:.1f}% payout ratio")
+            else:
+                details.append(f"High dividend payout ratio: {latest_payout_ratio*100:.1f}%")
     else:
         details.append("Insufficient dividend data")
     
@@ -371,7 +424,44 @@ def analyze_cathie_wood_valuation(ticker: str) -> dict:
     market_cap_data = get_market_cap(ticker)
     fcf_data = get_free_cash_flow(ticker)
     
-    if not market_cap_data or not fcf_data or not fcf_data.get("current_fcf"):
+    # If FCF data is not available, try to calculate it manually
+    if not fcf_data:
+        ni_data = get_net_income(ticker)
+        dep_data = get_depreciation_amortization(ticker)
+        capex_data = get_capital_expenditure(ticker)
+        wc_change_data = get_working_capital_change(ticker)
+        
+        if (ni_data and "current_value" in ni_data and
+            dep_data and "current_value" in dep_data and
+            capex_data and "current_value" in capex_data and
+            wc_change_data and "current_change" in wc_change_data):
+            
+            # Calculate FCF manually
+            ni = ni_data["current_value"]
+            dep = dep_data["current_value"]
+            capex = capex_data["current_value"]
+            wc_change = wc_change_data["current_change"]
+            
+            manual_fcf = ni + dep - capex - wc_change
+            
+            # Create a simple FCF data structure
+            fcf_data = {
+                "current_fcf": manual_fcf,
+                "is_positive": manual_fcf > 0,
+                "calculation_method": "manual"
+            }
+            
+            details.append(f"FCF calculated manually: {manual_fcf:.1f}")
+    
+    if not market_cap_data:
+        return {
+            "score": 0,
+            "rating": "Unknown",
+            "details": ["Market capitalization data not available"],
+            "summary": "Valuation: Unknown (0/5 points). Insufficient market data."
+        }
+        
+    if not fcf_data or "current_fcf" not in fcf_data:
         return {
             "score": 0,
             "rating": "Unknown",
@@ -517,13 +607,6 @@ class CathieWoodAgnoAgent():
                 Based on this analysis and Cathie Wood's investment philosophy, would you recommend investing in {ticker}?
                 Provide a clear signal (bullish, bearish, or neutral) with a confidence score (0.0 to 1.0).
                 Structure your reasoning to follow Wood's disruptive innovation approach.
-                
-                When providing your reasoning, be thorough and specific by:
-                1. Identifying the specific disruptive technologies/innovations the company is leveraging
-                2. Highlighting growth metrics that indicate exponential potential (revenue acceleration, expanding TAM)
-                3. Discussing the long-term vision and transformative potential over 5+ year horizons
-                4. Explaining how the company might disrupt traditional industries or create new markets
-                5. Addressing R&D investment and innovation pipeline that could drive future growth
                 """
         return prompt_template.format(
             ticker=ticker,
@@ -535,34 +618,80 @@ class CathieWoodAgnoAgent():
     def _parse_response(self, response: str, ticker: str) -> CathieWoodSignal:
         """Parse the LLM response into a structured signal."""
         try:
-            # Check if response is a string or an object
-            response_text = response
-            if not isinstance(response, str):
-                # If response is an object from Agno agent, convert it to string
+            # Check if response is a string or an Agno RunResponse object
+            response_text = ""
+            if hasattr(response, 'content'):
+                # If it's an Agno RunResponse object
+                response_text = response.content
+            elif not isinstance(response, str):
+                # Try to convert any other object to string
                 response_text = str(response)
-            
-            # Attempt to extract signal information from the response
-            if "bullish" in response_text.lower():
-                signal = "bullish"
-            elif "bearish" in response_text.lower():
-                signal = "bearish"
             else:
-                signal = "neutral"
+                response_text = response
             
-            # Extract confidence (simple heuristic)
-            confidence_matches = re.findall(r"confidence[:\s]+(\d+\.?\d*)", response_text.lower())
-            confidence = float(confidence_matches[0]) if confidence_matches else 0.5
+            # Convert to lowercase for easier matching
+            text_lower = response_text.lower()
             
-            # Truncate reasoning to reasonable length
-            reasoning = response_text[:1000] if len(response_text) > 1000 else response_text
+            # Extract signal (looking for explicit mentions)
+            signal = "neutral"  # Default
+            if "bullish" in text_lower:
+                signal = "bullish"
+            elif "bearish" in text_lower:
+                signal = "bearish"
+                
+            # Look for confidence mentions (as decimal or percentage)
+            confidence = 0.5  # Default confidence
+            
+            # Try to find confidence as decimal (0.X format)
+            decimal_matches = re.findall(r"confidence[:\s]+(\d+\.\d+)", text_lower)
+            if decimal_matches and 0 <= float(decimal_matches[0]) <= 1:
+                confidence = float(decimal_matches[0])
+            
+            # Try to find confidence as percentage (X% format)
+            percentage_matches = re.findall(r"confidence[:\s]+(\d+)%", text_lower)
+            if percentage_matches:
+                confidence = float(percentage_matches[0]) / 100
+                
+            # As a fallback, try to find any number after "confidence"
+            if confidence == 0.5:
+                generic_matches = re.findall(r"confidence[:\s]+(\d+\.?\d*)", text_lower)
+                if generic_matches:
+                    val = float(generic_matches[0])
+                    if val > 1:  # Assume it's a percentage if > 1
+                        confidence = val / 100
+                    else:
+                        confidence = val
+            
+            # Cap confidence to valid range
+            confidence = min(1.0, max(0.0, confidence))
+            
+            # Extract reasoning - anything after "reasoning" or the whole text if not found
+            reasoning_pattern = r"(?:reasoning|analysis)(?::|is|:is)(.*?)(?:\n\n|\Z)"
+            reasoning_matches = re.findall(reasoning_pattern, text_lower, re.DOTALL)
+            
+            if reasoning_matches:
+                reasoning = reasoning_matches[0].strip()
+            else:
+                # If no specific reasoning section, use the whole response
+                reasoning = response_text
+                
+            # Clean up reasoning
+            reasoning = reasoning.strip()
+            if len(reasoning) > 1000:
+                reasoning = reasoning[:997] + "..."
+                
+            # If reasoning is too short, use more of the original response
+            if len(reasoning) < 100 and len(response_text) > 100:
+                reasoning = response_text[:997] + "..." if len(response_text) > 1000 else response_text
             
             return CathieWoodSignal(
                 signal=signal,
-                confidence=min(1.0, max(0.0, confidence)),  # Ensure between 0 and 1
+                confidence=confidence,
                 reasoning=reasoning
             )
         except Exception as e:
-            # Default to neutral if parsing fails
+            # In case of any error, return a neutral signal
+            print(f"Error parsing LLM response: {str(e)}")
             return CathieWoodSignal(
                 signal="neutral",
                 confidence=0.5,
@@ -606,11 +735,21 @@ class CathieWoodAgnoAgent():
                     results[ticker] = {"error": f"No fundamental data found for {ticker}"}
                     continue
                 
-                # Perform analysis using the modular functions
-                disruptive_potential = analyze_disruptive_potential(ticker)
-                innovation_growth = analyze_innovation_growth(ticker)
-                valuation = analyze_cathie_wood_valuation(ticker)
+                # Use the analyze method directly
+                analysis_result = self.analyze(ticker)
                 
+                # Extract full analysis from the result
+                disruptive_potential = analysis_result.get("disruptive_potential", {})
+                innovation_growth = analysis_result.get("innovation_growth", {})
+                valuation = analysis_result.get("valuation", {})
+                
+                # Extract signal information from the result
+                signal = analysis_result.get("signal", "neutral")
+                confidence = analysis_result.get("confidence", 50)
+                reasoning = analysis_result.get("reasoning", "No reasoning provided")
+                overall_score = analysis_result.get("overall_score", 0)
+                
+                # Create a full analysis dictionary
                 analysis = {
                     "disruptive_potential": disruptive_potential,
                     "innovation_growth": innovation_growth,
@@ -621,40 +760,11 @@ class CathieWoodAgnoAgent():
                 print(f"Analysis for {ticker}:")
                 print(json.dumps(analysis, indent=2))
                 
-                # Calculate overall score using weighted approach
-                disruptive_weight = 0.4
-                innovation_weight = 0.4
-                valuation_weight = 0.2
-                
-                overall_score = (
-                    disruptive_potential.get("score", 0) * disruptive_weight +
-                    innovation_growth.get("score", 0) * innovation_weight +
-                    valuation.get("score", 0) * valuation_weight
-                )
-                
-                # Determine base signal from overall score
-                if overall_score >= 3.5:  # 70% of max score 5
-                    base_signal = "bullish"
-                    base_confidence = min(overall_score / 5, 1.0)
-                elif overall_score <= 1.5:  # 30% of max score 5
-                    base_signal = "bearish"
-                    base_confidence = min((5 - overall_score) / 5, 1.0)
-                else:
-                    base_signal = "neutral"
-                    base_confidence = 0.5
-                
-                # Prepare prompt and run LLM for nuanced analysis
-                prompt = self._prepare_agent_prompt(ticker, analysis)
-                llm_response = self.agent.run(prompt)
-                
-                # Parse LLM response into structured signal
-                signal = self._parse_response(llm_response, ticker)
-                
                 # Store results
                 results[ticker] = {
-                    "signal": signal.signal,
-                    "confidence": signal.confidence,
-                    "reasoning": signal.reasoning,
+                    "signal": signal,
+                    "confidence": confidence,
+                    "reasoning": reasoning,
                     "analysis": analysis,
                     "overall_score": overall_score
                 }
@@ -688,22 +798,23 @@ class CathieWoodAgnoAgent():
         
         if end_date:
             state["data"]["end_date"] = end_date
-            
-        # Use the existing run method
-        results = self._run_from_state(state)
         
-        # Extract the result for the single ticker
-        agent_name = "cathie_wood_agno_agent"
-        ticker_result = results.get(agent_name, {}).get(ticker, {})
-        
-        if "error" in ticker_result:
-            return "neutral", 0, ticker_result["error"]
+        try:
+            # Use the analyze method directly instead of extracting from _run_from_state results
+            analysis_result = self.analyze(ticker)
             
-        return (
-            ticker_result.get("signal", "neutral"),
-            ticker_result.get("confidence", 0) * 100,  # Convert to percentage
-            ticker_result.get("reasoning", "No reasoning provided")
-        )
+            # Extract the needed values from the analysis result
+            signal = analysis_result.get("signal", "neutral")
+            confidence = analysis_result.get("confidence", 0)
+            reasoning = analysis_result.get("reasoning", "No reasoning provided")
+            
+            return signal, confidence, reasoning
+            
+        except Exception as e:
+            print(f"Error analyzing {ticker}: {str(e)}")
+            import traceback
+            traceback.print_exc()
+            return "neutral", 0, f"Error analyzing {ticker}: {str(e)}"
     
     def analyze(self, ticker: str) -> Dict:
         """Analyze a stock based on Cathie Wood's disruptive innovation criteria"""
@@ -714,7 +825,21 @@ class CathieWoodAgnoAgent():
         innovation_growth = analyze_innovation_growth(ticker)
         valuation = analyze_cathie_wood_valuation(ticker)
         
-        # Calculate overall score (weighted average)
+        # Create a full analysis dictionary
+        analysis_summary = {
+            "disruptive_potential": disruptive_potential,
+            "innovation_growth": innovation_growth,
+            "valuation": valuation
+        }
+        
+        # Prepare prompt and run LLM for nuanced analysis
+        prompt = self._prepare_agent_prompt(ticker, analysis_summary)
+        llm_response = self.agent.run(prompt)
+        
+        # Parse LLM response into structured signal
+        signal_data = self._parse_response(llm_response, ticker)
+        
+        # Calculate overall score (weighted average) for reference
         disruptive_weight = 0.4  # 40% weight
         innovation_weight = 0.4  # 40% weight
         valuation_weight = 0.2   # 20% weight
@@ -725,18 +850,6 @@ class CathieWoodAgnoAgent():
             valuation.get("score", 0) * valuation_weight
         )
         
-        # Determine investment recommendation
-        if overall_score >= 4.0:
-            recommendation = "Strong Buy"
-        elif overall_score >= 3.0:
-            recommendation = "Buy"
-        elif overall_score >= 2.5:
-            recommendation = "Hold"
-        elif overall_score >= 2.0:
-            recommendation = "Neutral"
-        else:
-            recommendation = "Avoid"
-        
         # Generate comprehensive report
         report = {
             "ticker": ticker,
@@ -744,7 +857,9 @@ class CathieWoodAgnoAgent():
             "innovation_growth": innovation_growth,
             "valuation": valuation,
             "overall_score": overall_score,
-            "recommendation": recommendation,
+            "signal": signal_data.signal,
+            "confidence": signal_data.confidence * 100,  # Convert to percentage
+            "reasoning": signal_data.reasoning,
             "summary": f"""
 Cathie Wood Analysis for {ticker}:
 
@@ -758,7 +873,7 @@ Valuation: {valuation.get('score', 0):.1f}/5
 {valuation.get('summary', 'No summary available')}
 
 Overall Score: {overall_score:.1f}/5
-Recommendation: {recommendation}
+Signal: {signal_data.signal.upper()} ({signal_data.confidence * 100:.1f}% confidence)
 """
         }
         
@@ -770,7 +885,7 @@ Recommendation: {recommendation}
 if __name__ == '__main__':
     test_state = {
         "data": {
-            "tickers": ["TSLA"],  # Example ticker
+            "tickers": ["HDFCBANK"],  # Example ticker
             "end_date": "2023-12-31"  # Optional end date
         }
         # Optional metadata for model selection can be added here
